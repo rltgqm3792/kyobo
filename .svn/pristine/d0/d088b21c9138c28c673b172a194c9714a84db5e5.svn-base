@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/eink.css">
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/ui_eink.js"></script>
+</head>
+<body> 
+<!-- header container -->
+<header id="header_container">
+    <div class="header_fixed">
+        <!-- header top -->
+        <div class="header_top">
+            <h1 class="hidden">교보문고 sam 7.8</h1>
+            <!-- btn menu -->
+            <a href="#" class="btn_menu cate">메뉴보기</a> <!-- 카테고리 보기 메뉴는 클래스가 추가됨 -->
+            <!-- util -->
+            <div class="util"> 
+                <ul>
+                    <li><a href="#" class="btn_home">메인</a></li> 
+                    <li><button type="button"  class="btn_sch">검색</button></li>  
+                </ul> 
+            </div>      
+            <!--  location -->
+            <div class="location_area">
+                <ul>
+                    <li>
+                        <a href="#">시/에세이</a>
+                    </li>
+                    <li class="now">
+                        <a href="#">한국에세이</a>
+                    </li>
+                </ul> 
+            </div> 
+            <div class="openLocation_wrap">
+                <div class="location_inner">
+                    <div class="words">
+                        <ul>
+                            <li><a href="#">한국시</a></li>
+                            <li><a href="#">국외 시</a></li>
+                            <li><a href="#">한국에세이</a></li>
+                            <li><a href="#">영미에세이</a></li>
+                            <li><a href="#">일본에세이</a></li>
+                            <li><a href="#">기타국가에세이</a></li>
+                            <li><a href="#">인물이야기</a></li>
+                            <li><a href="#">한국시</a></li>
+                            <li><a href="#">국외 시</a></li>
+                            <li><a href="#">한국에세이</a></li>
+                            <li><a href="#">영미에세이</a></li>
+                            <li><a href="#">일본에세이</a></li>
+                            <li><a href="#">기타국가에세이</a></li>
+                            <li><a href="#">인물이야기</a></li>
+                            <li><a href="#">한국시</a></li>
+                            <li><a href="#">국외 시</a></li>
+                            <li><a href="#">한국에세이</a></li>
+                            <li><a href="#">영미에세이</a></li>
+                            <li><a href="#">일본에세이</a></li>
+                            <li><a href="#">기타국가에세이</a></li>
+                            <li><a href="#">인물이야기</a></li>
+                            <li><a href="#">한국시</a></li>
+                            <li><a href="#">국외 시</a></li>
+                            <li><a href="#">한국에세이</a></li>
+                            <li><a href="#">영미에세이</a></li>
+                            <li><a href="#">일본에세이</a></li>
+                            <li><a href="#">기타국가에세이</a></li>
+                            <li><a href="#">인물이야기</a></li>
+                        </ul>
+                    </div> 
+                </div>
+            </div> 
+            <!--  //location --> 
+        </div>
+        <!-- //header top -->
+    </div>
+</header>
+<!-- //header container -->
+
+<!-- body container -->
+<div id="body_container"> 
+	<!-- content  --> 
+	<section class="bookList_wrap">
+        <div class="hd">
+            <div class="subgnb_box">
+                <!-- subgnb01 -->
+                <div class="subgnb01">
+                    <ul>
+                        <li><a href="#" class="">전체</a></li> 
+                        <li><a href="#" class="on">무료</a></li> 
+                        <li><a href="#" class="">대여</a></li> 
+                        <li><a href="#" class="">sam베이직</a></li> 
+                        <li><a href="#" class="">sam무제한</a></li> 
+                    </ul>
+                </div>  
+                <!-- filter01 -->
+                <div class="filter01">
+                    <!-- select -->
+                    <div class="selectbox w01">
+                        <select id="">
+                            <option value="">판매인기순</option>
+                            <option value="">최신순</option>
+                            <option value="">누적판매순</option>
+                            <option value="">상품명순</option>
+                            <option value="">종이책출간일순</option>
+                            <option value="">높은가격순</option>
+                            <option value="">낮은가격순</option>
+                        </select> 
+                    </div> 
+                    <!-- //select -->
+                </div>
+            </div>
+        </div>
+        <div class="bookListType01">
+            <ul>
+                <li>
+                	<div class="list_wrap">
+	                    <a href="#">
+	                        <div class="pic">
+	                            <span class="icon_adult_full"><em class="bg_adult"></em> <em class="icon_adult19_list"></em>19세 이상 성인용</span>
+	                            <span class="cover"><img src="../images/img_pic03.png" width="100" height="140" alt="책제목"></span>
+	                        </div>
+	                    </a>
+                        <div class="detail">
+                            <a href="#">
+                            	<strong class="title">요즘 남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니다</strong>
+                            </a>
+                            <span class="txt01">데이라잇 지음 / 팩토리나인 / 한국에세이</span>
+                            <span class="price"><span>대여 : <strong>8,500원</strong></span><span>구매 : <strong>8,500원</strong></span></span>
+                        </div>
+                   </div>
+                </li>
+                <li>
+                    <div class="list_wrap">
+                    	<a href="#">
+	                        <div class="pic">
+	                            <span class="icon_adult">19세 이상 성인용</span>
+	                            <span class="icon_sam">sam</span>
+	                            <span class="icon_samList">audio book</span>
+	                            <span class="cover"><img src="../images/img_pic03.png" width="100" height="140" alt="책제목"></span>
+	                        </div>
+                        </a>
+                        <div class="detail">
+                        	<a href="#">
+                            	<strong class="title">요즘 남자는 그렇지 않습니다</strong>
+                            </a>
+                            <span class="txt01">데이라잇 지음 / 팩토리나인 / 한국에세이</span>
+                            <span class="txt01 sam">
+                                <img src="../images/icon_list01.png" height="20" alt="sam베이직">
+                                <img src="../images/icon_list02.png" height="20" alt="sam무제한">
+                            </span>
+                            <span class="price"><span>대여 : <strong>8,500원</strong></span><span>구매 : <strong>8,500원</strong></span></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<div class="list_wrap">
+	                    <a href="#">
+	                        <div class="pic">
+	                            <span class="icon_adult_full"><em class="bg_adult"></em> <em class="icon_adult19_list"></em>19세 이상 성인용</span>
+	                            <span class="cover"><img src="../images/img_pic03.png" width="100" height="140" alt="책제목"></span>
+	                        </div>
+	                    </a>
+                        <div class="detail">
+                            <a href="#">
+                            	<strong class="title">요즘 남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니남자는 그렇지 않습니다</strong>
+                            </a>
+                            <span class="txt01">데이라잇 지음 / 팩토리나인 / 한국에세이</span>
+                            <span class="price"><span>대여 : <strong>8,500원</strong></span><span>구매 : <strong>8,500원</strong></span></span>
+                        </div>
+                   </div>
+                </li>
+                <li>
+                    <div class="list_wrap">
+                    	<a href="#">
+	                        <div class="pic">
+	                            <span class="icon_adult">19세 이상 성인용</span>
+	                            <span class="icon_sam">sam</span>
+	                            <span class="icon_samList">audio book</span>
+	                            <span class="cover"><img src="../images/img_pic03.png" width="100" height="140" alt="책제목"></span>
+	                        </div>
+                        </a>
+                        <div class="detail">
+                        	<a href="#">
+                            	<strong class="title">요즘 남자는 그렇지 않습니다</strong>
+                            </a>
+                            <span class="txt01">데이라잇 지음 / 팩토리나인 / 한국에세이</span>
+                            <span class="txt01 sam">
+                                <img src="../images/icon_list01.png" height="20" alt="sam베이직">
+                                <img src="../images/icon_list02.png" height="20" alt="sam무제한">
+                            </span>
+                            <span class="price"><span>대여 : <strong>8,500원</strong></span><span>구매 : <strong>8,500원</strong></span></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="list_wrap">
+                    	<a href="#">
+	                        <div class="pic">
+	                            <span class="icon_adult_full"><em class="bg_adult"></em> <em class="icon_adult19_list"></em>19세 이상 성인용</span>
+	                            <span class="cover"><img src="../images/img_pic03.png" width="100" height="140" alt="책제목"></span>
+	                        </div>
+	                    </a>
+                        <div class="detail">
+                        	<a href="#">
+                            	<strong class="title">요즘 남자는 그렇지 않습니다</strong>
+                            </a>
+                            <span class="txt01">데이라잇 지음 / 팩토리나인 / 한국에세이</span>
+                            <span class="txt01"><img src="../images/icon_list05.png" height="20" alt="연재"> <img src="../images/icon_list06.png" height="20" alt="완결"> 총 7권 [무료 1권]</span>
+                            <span class="txt01 sam">
+                                <img src="../images/icon_list02.png" height="20" alt="sam무제한">
+                            </span>
+                            <span class="price"><span>대여 : <strong>8,500원</strong></span><span>구매 : <strong>8,500원</strong></span></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>                
+        <!-- content bottom -->
+        <div class="content_bottom">
+            <!-- bottom box-->
+            <div class="bottom_box">
+                <div class="pagecount">
+                    <em>1</em>/<em>13</em>
+                </div>
+                <div class="pagination">
+                    <a href="#" class="btn_first">맨앞</a>
+                    <a href="#" class="btn_prev">이전</a>
+                    <span class="num">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <strong>3</strong>
+                        <a href="#">4</a>
+                    </span>
+                    <a href="#" class="btn_next">다음</a>
+                    <a href="#" class="btn_last">맨뒤</a>
+                </div>                              
+            </div>
+        </div>
+        <!-- //content bottom -->    
+	</section>
+	<!-- //content --> 
+</div>
+<!-- //body container -->
+
+</body>
+</html>

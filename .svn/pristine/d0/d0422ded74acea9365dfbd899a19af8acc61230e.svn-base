@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/eink.css">
+
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/ui_eink.js"></script>
+</head>
+<body class="pagesub"> 
+<!-- header container -->
+
+<div class="popup_container">
+    <header class="header_container"> 
+        <!-- header top -->
+        <div class="header_top">
+            <h1 class="hidden">교보문고 sam 7.8</h1>
+            <!-- title --> 
+            <h2>sam이용권 이용안내</h2>
+            <!-- util --> 
+            <a href="#" class="btn_close">닫기</a> 
+        </div>
+        <!-- //header top --> 
+    </header>
+    <!-- //header container -->
+
+    <!-- body container -->
+    <main class="popup_body">  
+            
+        <!-- useInfo_wrap -->
+        <div class="useInfo_wrap">
+            <div class="useInfo_inner">
+                <!-- 사용 안내 -->
+                <h2 class="title">사용 안내</h2>
+                <ol class="list_order">
+                    <li>① 본 상품은 『eBook 월정액제』 상품 및 연관 상품으로, 구매 후 바로 사용가능합니다.</li>
+                    <li>② 본 상품의 사용단위는 구매 일로부터 30일이며 이 기간을 『회차』라고 부릅니다.</li>
+                    <li>③ 본 상품은 콘텐츠를 이용할 수 있는 권리인 『열람권』을 기본으로 구성되어있으며, 열람권 1개를 사용해 콘텐츠 1개를 볼 수 있습니다.</li>
+                    <li>④ 열람권을 사용하여 다운로드한 콘텐츠는 sam베이직의 경우 이용권 구매일(또는 회차 개시일)로부터 180일간, sam무제한의 경우 이용권구매일(또는 회차 개시일)로부터 30일간 열람할 수 있습니다.</li>
+                    <li>⑤ 이용하지 않은 유료 열람권(미사용열람권)은 1회에 한항 다음 회차로 자동이월되며, 다음 회차를 구매하지 않으며 미사용열람권은 소멸됩니다.(추가이용권상품, PIN번호 등록으로 생성된 이용권은 미사용열람권이 이월되지 않고 소멸됩니다.)</li>
+                    <li>⑥ 일시불상품(12개월/24개월 등) 및 자동결제상품은 서비스 중지가 불가능합니다. 단, 약정상품(12/24개월 등)은 최대 2번, 1회 30일동안 서비스를 중지할 수 있습니다.</li>
+                </ol>
+                <!-- 구매 안내 -->
+                <h2 class="title">구매 안내</h2>
+                <ol class="list_order">
+                    <li>① 구매한 이용권은 『My이용권』에서 확인할 수 있습니다.</li>
+                    <li>② 이용권은 구매 시간을 기준으로 자동재결제 또는 만료됩니다.<br/>
+                        예: 2월 18일 15시 결제 시 3월 14일 14시 59분 재결제 또는 만료
+                    </li>
+                    <li>③ 본 상품은 교보문고의 제휴카드 혜택에서 제외될 수 있으며, 구매 시 제휴카드별 혜택여부를 꼭 확인하시기 바랍니다.</li>
+                    <li>④ 다음 회차를 구매하지 않으면 서비스가 자동으로 정지됩니다. 정지 후, sam베이직은 최종 회차 구매일로부터 180일간 콘텐츠 열람이 가능하며, sam무제한의 경우 서비스 중지와 함께 열람도 중지됩니다.</li>
+                </ol>
+                <!-- 콘텐츠 상품의 취소 및 환불 안내 -->
+                <h2 class="title">콘텐츠 상품의 취소 및 환불 안내</h2>
+                <ol class="list_order">
+                    <li>① 이용권은 콘텐츠를 열람하지 않은 상태에서 구매일로부터 7일내 MY페이지의 My이용권에서 즉시 구매취소가 가능합니다.</li>
+                    <li>② 환불은 결제업체의 기준에 따라 처리되며, 보통은 2~3일, 길게는 7일 이상 소요되기도 합니다.</li>
+                    <li>③ 이용권을 사용하였거나, 또는 이용권을 사용하지 않았더라도 구매일로부터 7일이 경과된 경우 즉시 구매취소가 불가합니다. 이 경우 서비스 해지 예약으로 처리되며, 해당 회차의 종료일에 자동으로 서비스해지됩니다.</li>
+                    <li>④ 다음 회차의 결제가 이루어지지 않으면 서비스는 즉각 중지되며, 3회에 걸쳐 서비스중지와 결제 안내를 진행하고 최종적으로 약정 해지됩니다.</li>
+                </ol>
+                <!-- 단말기 결합형 상품의 취소 및 환불 안내 -->
+                <h2 class="title">단말기 결합형 상품의 취소 및 환불 안내</h2>
+                <ol class="list_order">
+                    <li>① 콘텐츠를 열람하지 않은 상태에서 구매일로부터 7일 이내 <strong>교보문고 고객센터를 통해서</strong> 즉시 구매 취소가 가능합니다.</li>
+                    <li>② <strong>주문이 완료되면 sam 콘텐츠 상품은 바로 사용이 가능합니다.</strong></li>
+                    <li>③ 구매 취소는 교보문고 고객센터(1544-1900)로 연락하시기 바랍니다.</li>
+                    <li>④ 구매 취소 후에는 제공된 상품과 그 구성품 그리고 함께 제공된 혜택과 상품 등이 모두 회수 확인이 되어야 환불처리 되며, 결제업체의 환불규정을 준수합니다. <br/>
+                        <strong>이 경우 상품의 반품에 소요되는 비용은 고객이 부담해야 합니다.</strong>
+                    </li>
+                    <li>⑤ 다음의 경우 구매 취소가 불가능합니다.
+                        <ul class="list-dash">
+                            <li>콘텐츠를 열람하였거나, 구매일로부터 7일이 경과한 경우</li>
+                            <li>고객의 책임 있는 사유로 상품이 멸실 또는 훼손된 경우(예. 별도 페키지 포장의 훼손, 상품의 파손 등)</li>
+                            <li>고객의 사용으로 상품가치가 현저히 감소된 경우 예) 보호필름의 부착 등</li>
+                            <li>패키지 상품의 경우 구성상품 일부의 개봉/설치/사용으로 상품가치가 현저히 감소 된 경우 예) 함께 제공된 케이스의 장착, 설치 등으로 인한 개봉/훼손 등</li>
+                            <li>시간이 경과되어 재판매가 곤란할 정도로 상품가치가 상실된 경우</li>
+                            <li>복제가 가능한 상품의 경우 그 원본인 상품의 포장이 훼손된 경우</li>
+                            <li>상품 등의 내용이 표시&middot;광고 내용 및 계약내용과 같고, 별도의 하자가 없음에도단순변심으로 인한 교환을 요구하는 경우</li>
+                            <li>기타, '전자상거래 등에서의 소비자보호에 관한 법률' 등 관계법령이 정하는 교환/반품 제한사유에 해당되는 경우</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- // useInfo_wrap -->
+ 
+    </main>
+    <!-- //body container -->
+</div>
+</body>
+</html>
+

@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>교보ebook</title>
+    <meta name="title" content="교보ebook">
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="robots" content="ALL">
+    <meta name="subject" content="교보ebook">
+    <meta name="author" content="교보ebook">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../css/eink.css">
+    <script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="../js/ui_eink.js"></script>
+</head>
+
+<body>
+    <!-- header container -->
+    <header id="header_container">
+        <div class="header_fixed">
+            <!-- header top -->
+            <div class="header_top">
+                <h1 class="hidden">교보문고 sam 7.8</h1>
+                <!-- btn back -->
+                <a href="#" class="btn_back">이전페이지</a>
+                <!-- title -->
+                <div class="top_area">
+                    <p class="location"><span>소설</span> > <span>영미소설</span></p>
+                </div>
+                <!-- util -->
+                <div class="util">
+                    <ul>
+                        <li><a href="#" class="btn_home">메인</a></li>
+                        <li><button type="button" class="btn_sch">검색</button></li>
+                        <li><a href="#" class="btn_zzim">찜하기</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- //header top -->
+        </div>
+    </header>
+    <!-- //header container -->
+    
+    <!-- hambuger menu -->
+    <nav class="hamMenu_wrap">
+        <div class="inner">
+            <h2 class="hidden">메뉴</h2>
+            <p class="logo"><img src="../images/img_logo01.png" width="120" alt="KYOBO eBook"></p>
+            <a href="#" class="btn_logout">로그아웃</a>
+            <ul class="nav_list">
+                <li>
+                    <a href="#" class="m1 on">eBook</a>
+                    <ul>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">11로맨스</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="m2">오디오북</a> 
+                    <ul>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">로맨스</a></li>
+                    </ul> 
+                </li>
+            </ul>
+            <button class="btn_close"><img src="../images/icon_close03.png" width="46" alt="햄버거 메뉴 닫기"></button>
+        </div>
+    </nav>
+    <!-- // hambuger menu -->
+
+    <!-- body container -->
+    <div id="body_container">
+        <!-- content  -->
+        <main class="content">
+            <!-- 2020-07-07 layout 변경 content_inner 제거 -->
+            <!-- book view01 -->
+            <section class="book_view01">
+                <div class="view">
+                    <div class="pic">
+                        <a href="#" class="icon_audio">오디오북</a>
+                        <img src="http://image.kyobobook.co.kr/images/book/large/610/l480D200503610.jpg" class="cover"
+                            alt="책 제목(태그 제거해서 넣어주세요)">
+                    </div>
+                    <div class="detail">
+                        <div class="detail_inner">
+                            <p class="icon_area">
+                                <span class="icon_state01">세트</span>
+                                <span class="icon_state01">시리즈</span>
+                                <span class="icon_state01">완결</span>
+                                <span class="icon_state02">총 8권</span>
+                                <span class="icon_state02">[무료 1권]</span>
+                            </p>
+                            <div class="title">
+                                <h2>20이상이면 폰트 축소 </h2>
+                                <h2 class="fsize01">20이상이면 폰트 축소20이상이면 폰트 축소20이상이면 폰트 축소20이상이면 폰트 축소 </h2>
+                                <span class="sub">아다치미츠루의청춘</span>
+                            </div>
+                            <div class="info">
+                                <p class="text"><span>루이스 캐럴, 루시M. 몽고메리 외 지음</span> <span>필름(Feelm)</span>
+                                    <span>필름(Feelm)</span></p>
+                                <p class="date">2020년 06월 03일 (종이책 2020년 04월 20일 출간)</p>
+                                <p class="text02"><span>mp3 : 총 346MB</span> <span>총 1시간 45분</span></p>
+                                <p class="text02"><span>ePUB : 14.32MB </span> <span> ISBN : 9791157955176</span></p>
+                                <p class="point">
+                                    <span class="wrap"><span class="value" style="width: 50%"></span></span>
+                                    <span class="grade">9.5</span>
+                                    <span class="unit"><em>182</em>명</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn_area"><a href="#" class="btn_m01">미리보기</a></div>
+                    </div>
+                </div>
+            </section>
+            <!-- //book view01 -->
+
+            <!-- 구매정보 -->
+            <section class="buyInfo_section">
+                <h3 class="hidden">구매 정보</h3>
+                <!-- 유형 01_A '대여 + 구매 + sam' 가능한 경우 -->
+                <div class="tbl_view01">
+                    <table>
+                        <caption>구매 정보</caption>
+                        <colgroup>
+                            <col style="width:33%">
+                            <col style="width:33%">
+                            <col style="width:34%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">대여</th>
+                                <th scope="col">구매(소장)</th>
+                                <th scope="col">월정액 sam</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>
+                                        <span class="price01"><em>4,500</em>원</span>
+                                        <span class="day01">(<em>90</em>일)</span>
+                                    </p>
+                                    <p>
+                                        <span class="price02">
+                                            <em>5,000</em>원</span>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <span class="price01"><em>4,500</em>원</span>
+                                    </p>
+                                    <p>
+                                        <span class="price02">
+                                            <em>10,000</em>원</span>
+                                    </p>
+                                </td>
+                                <td>
+                                    <span class="icon_small01"><em class="icon_text_sam">sam</em>베이직</span>
+                                    <span class="icon_small01"><em class="icon_text_sam">sam</em>무제한</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- //유형 01_A '대여 + 구매 + sam' 가능한 경우 -->
+
+                <!-- 유형 01_D '구매만' 가능한 경우 -->
+                <div class="tbl_view01">
+                    <table>
+                        <caption>구매 정보</caption>
+                        <colgroup>
+                            <col style="width:33%">
+                            <col style="width:33%">
+                            <col style="width:34%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">대여</th>
+                                <th scope="col">구매(소장)</th>
+                                <th scope="col">월정액 sam</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="hyphen">-</span>
+                                </td>
+                                <td>
+                                    <p>
+                                        <span class="price01"><em>4,500</em>원</span>
+                                    </p>
+                                    <p>
+                                        <span class="price02">
+                                            <em>10,000</em>원
+                                        </span>
+                                    </p>
+                                </td>
+                                <td>
+                                    <span class="hyphen">-</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- //유형 01_D '구매만' 가능한 경우 -->
+
+                <!-- 유형 02 '연재'도서 가격정보 -->
+                <div class="tbl_view01">
+                    <table>
+                        <caption>구매 정보</caption>
+                        <colgroup>
+                            <col style="width:50%">
+                            <col style="width:50%">
+                        </colgroup>
+                        <thead>
+                            <tr class="brline">
+                                <th scope="col">대여</th>
+                                <th scope="col">구매(소장)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="brline">
+                                <td class="left01">
+                                    <p>
+                                        <span class="sub01">회당</span>
+                                        <span class="price01"><em>500</em>원</span>
+                                        <span class="day01">(<em>90</em>일)</span>
+                                    </p>
+                                    <p>
+                                        <span class="sub01">전회</span>
+                                        <span class="price01"><em>4,500</em>원</span>
+                                        <span class="day01">(<em>90</em>일)</span>
+                                    </p>
+                                </td>
+                                <td class="left01">
+                                    <p>
+                                        <span class="sub01">회당</span>
+                                        <span class="price01"><em>500</em>원</span>
+                                    </p>
+                                    <p>
+                                        <span class="sub01">전회</span>
+                                        <span class="price01"><em>4,500</em>원</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- //유형 02 '연재'도서 가격정보 -->
+
+                <!-- 유형 03 '오디오북' 가격정보 -->
+                <div class="tbl_view01">
+                    <table>
+                        <caption>구매 정보</caption>
+                        <colgroup>
+                            <col style="width:50%">
+                            <col style="width:50%">
+                        </colgroup>
+                        <thead>
+                            <tr class="brline">
+                                <th scope="col">대여</th>
+                                <th scope="col">구매(소장)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="brline">
+                                <td>
+                                    <p>
+                                        <span class="price01"><em>4,500</em>원</span>
+                                        <span class="day01">(<em>90</em>일)</span>
+                                    </p>
+                                    <p>
+                                        <span class="price02">
+                                            <em>5,000</em>원</span>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <span class="price01"><em>4,500</em>원</span>
+                                    </p>
+                                    <p>
+                                        <span class="price02">
+                                            <em>10,000</em>원</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- //유형 03 '오디오북' 가격정보 -->
+            </section>
+            <!-- //구매정보  -->
+
+            <!-- 세트 구성 상품 -->
+            <section class="setProduct_section">
+                <!-- view head -->
+                <div class="view_head01">
+                    <h3>세트 구성 상품</h3>
+                    <span class="total">(전 10권)</span>
+                </div>
+                <!-- //view head -->
+
+                <!-- book list -->
+                <div class="book_view02 short">
+                    <ul class="view">
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/610/l480D200503610.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사오즈의 마법사오즈의 마법사오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/128/l9791187304128.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/641/l9791158740641.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/610/l480D200503610.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/128/l9791187304128.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/641/l9791158740641.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/641/l9791158740641.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/641/l9791158740641.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/641/l9791158740641.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/641/l9791158740641.jpg"
+                                    alt="책이름">
+                            </a>
+                            <div class="info">
+                                <a href="#"><span class="title">오즈의 마법사</span></a>
+                                <span class="price">구매 4,800원</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //book list -->
+
+                <!-- btn area -->
+                <button type="button" class="btn_m02 btn_more">세트 전권 펼침 <em class="icon_arrow01_down">▼</em></button>
+                <script>
+                    shortItemToggle(".setProduct_section", ".book_view02", "세트 전권 닫기", "세트 전권 펼침");
+                </script>
+            </section>
+            <!-- //세트 구성 상품 -->
+
+            <!-- 시리즈 구매 -->
+            <section class="productsList_section">
+                <!-- view head01 -->
+                <div class="view_head01">
+                    <h3>시리즈</h3>
+                    <span class="total">(전 8권)</span>
+                    <span class="btn">
+                        <a href="#" class="btn_s01">전권대여</a>
+                        <a href="#" class="btn_s01">전권구매</a>
+                        <a href="#" class="btn_s01">전회대여</a>
+                        <a href="#" class="btn_s01">전회구매</a>
+                    </span>
+                    <div class="col_right">
+                        <span class="totalset">총 2권 선택</span>
+                        <span class="btn"><a href="#" class="btn_s01"><em class="icon_sort01">정렬</em></a></span>
+                    </div>
+                </div>
+
+                <!-- book view03 -->
+                <div class="book_view03">
+                    <div class="all_check">
+                        <span class="check_box01">
+                            <input type="checkbox" name="chk01" value="2" id="aa00" checked="checked">
+                            <label for="aa00">전체</label> <!-- 2020-07-08 수량삭제 -->
+                        </span>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="check_box01">
+                                        <input type="checkbox" name="chk01" value="2" id="aa01" checked="checked">
+                                        <label for="aa01">지독하게 끌어안고 지독하게 키스하고지독하게 끌어안고 지독하게 키스하고. 1
+                                            <em class="data"><span>2020.04.01</span><span><i class="rented">대여했던
+                                                        책</i></span></em>
+                                        </label>
+                                    </span>
+                                </div>
+                                <div class="col_right">
+                                    <a href="#" class="btn_s01">무료 다운로드</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="check_box01">
+                                        <input type="checkbox" name="chk02" value="2" id="aa02" checked="checked">
+                                        <label for="aa02">지독하게 끌어안고 지독하게 키스하고. 1
+                                            <em class="data"><span>2020.04.01</span></em>
+                                        </label>
+                                    </span>
+                                </div>
+                                <div class="col_right">
+                                    <a href="#" class="btn_s01">무료보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="check_box01">
+                                        <input type="checkbox" name="chk03" value="2" id="aa03">
+                                        <label for="aa03">지독하게 끌어안고 지독하게 키스하고. 1</label>
+                                    </span>
+                                </div>
+                                <div class="col_right">
+                                    <span class="text">구매 10,000원</span>
+                                    <span class="text">대여 500원</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="check_box01">
+                                        <input type="checkbox" disabled="disabled" name="chk04" value="2" id="aa04">
+                                        <label for="aa04">지독하게 끌어안고 지독하게 키스하고. 1
+                                            <em class="data"><span><i class="rented">대여했던 책</i></span></em>
+                                        </label>
+                                    </span>
+                                </div>
+                                <div class="col_right">
+                                    <a href="#" class="btn_s01">바로보기</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="check_box01">
+                                        <input type="checkbox" name="chk05" value="2" id="aa05">
+                                        <label for="aa05">지독하게 끌어안고 지독하게 키스하고. 1</label>
+                                    </span>
+                                </div>
+                                <div class="col_right">
+                                    <span class="text">구매 1,000원</span>
+                                    <span class="text">대여 1,000원</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="check_box01">
+                                        <input type="checkbox" name="chk05" value="2" id="aa05">
+                                        <label for="aa05">지독하게 끌어안고 지독하게 키스하고. 1</label>
+                                    </span>
+                                </div>
+                                <div class="col_right">
+                                    <span class="text">구매 1,000원</span>
+                                    <span class="text">대여 1,000원</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="check_box01">
+                                        <input type="checkbox" name="chk05" value="2" id="aa05">
+                                        <label for="aa05">지독하게 끌어안고 지독하게 키스하고. 1</label>
+                                    </span>
+                                </div>
+                                <div class="col_right">
+                                    <span class="text">구매 1,000원</span>
+                                    <span class="text">대여 1,000원</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="check_box01">
+                                        <input type="checkbox" name="chk05" value="2" id="aa05">
+                                        <label for="aa05">지독하게 끌어안고 지독하게 키스하고. 1</label>
+                                    </span>
+                                </div>
+                                <div class="col_right">
+                                    <span class="text">구매 1,000원</span>
+                                    <span class="text">대여 1,000원</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //book view03 -->
+
+                <!-- view head01 -->
+                <!-- 2020-07-08 추가 -->
+                <div class="view_head01">
+                    <h3>오디오북</h3>
+                    <span class="total">(총 10회)</span>
+                    <div class="col_right">
+                        <span class="totalset">총 1시간 45분</span>
+                        <span class="btn"><a href="#" class="btn_s01"><em class="icon_sort01">정렬</em></a></span>
+                    </div>
+                </div>
+
+                <!-- 오디오북 -->
+                <div class="book_view03">
+                    <!-- 
+                <div class="all_check">
+                    <span class="sub">전체 (총 88화)</span>
+                </div> 
+                -->
+                    <!-- 2020-07-08 삭제 -->
+                    <ul class="list">
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="sub">1회. 단 하루도 너를 사랑하지 않은 날이 없다. </span>
+                                </div>
+                                <div class="col_right">
+                                    <span class="text">18:00</span>
+                                    <span class="text">24MB</span>
+                                    <span class="btn"><a href="#" class="icon_audio01">오디오북</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="sub">1회. 단 하루도 너를 사랑하지 않은 날이 없다. </span>
+                                </div>
+                                <div class="col_right">
+                                    <span class="text">18:00</span>
+                                    <span class="text">24MB</span>
+                                    <span class="btn"><a href="#" class="icon_audio01 disabled">오디오북</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col_box">
+                                <div class="col_left">
+                                    <span class="sub">1회. 단 하루도 너를 사랑하지 않은 날이 없다. </span>
+                                </div>
+                                <div class="col_right">
+                                    <span class="text">18:00</span>
+                                    <span class="text">24MB</span>
+                                    <span class="btn"><a href="#" class="icon_audio01">오디오북</a></span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //오디오북 -->
+                <!-- btn area -->
+                <button type="button" class="btn_m02 btn_more">시리즈 전권 펼침 <em class="icon_arrow01_down">▼</em></button>
+
+                <script>
+                    shortItemToggle(".productsList_section", ".book_view03", "시리즈 전권 닫기", "시리즈 전권 펼침");
+                </script>
+            </section>
+            <!-- //시리즈 구매 -->
+
+            <!-- 기타 정보 -->
+            <section class="bookDetailInfo_section">
+                <!-- tab01 -->
+                <ul class="tab01">
+                    <li class="on"><a href="#tab1" rel="tab1">책소개</a></li>
+                    <li><a href="#tab2" rel="tab2">목차</a></li>
+                    <li><a href="#tab3" rel="tab3">저자</a></li>
+                </ul>
+                <h3 class="hidden">책소개</h3>
+                <div class="tab_cont" id="tab1">
+                    <a href="#previewPopup" class="btn_imgPreview"><span>상세 이미지보기</span></a>
+                    01 <br>
+                    “왜 그렇게 열심히 살았던 걸까요? 좋아하는 게 뭔지도 모르면서.”
+                    왠지 자꾸만 마음이 쓸쓸하고 허무할 때가 있다. 지금 제대로 살고 있는 건지 앞으로 어떻게 살아야 할지 잘 모르겠고, 사람을 만나는 것도 피곤하기만 하다. 분명 하루하루 열심히
+                    사는데 행복하지 않다. 만약 이런 기분을 느끼고 있다면, 당신은 바쁘게 흘러가는 세상의 속도에 지친 것이다. “내가 좋아하는 게 뭔지도 모르는 거야. 내가 나에 대해서 아는 게
+                    뭐가 있나 싶더라고.” 소녀시대의 멤버 태연이 한 TV 예능 프로그램에서 밝혀 화제가 된 이 고백처럼, 오늘날 우리 주위에는 이렇게 지치고 무기력해진 사람이 많다.
+                </div>
+                <h3 class="hidden">목차</h3>
+                <div class="tab_cont" id="tab2">
+                    02 <br>
+                    “왜 그렇게 열심히 살았던 걸까요? 좋아하는 게 뭔지도 모르면서.”
+                    왠지 자꾸만 마음이 쓸쓸하고 허무할 때가 있다. 지금 제대로 살고 있는 건지 앞으로 어떻게 살아야 할지 잘 모르겠고, 사람을 만나는 것도 피곤하기만 하다. 분명 하루하루 열심히
+                    사는데 행복하지 않다. 만약 이런 기분을 느끼고 있다면, 당신은 바쁘게 흘러가는 세상의 속도에 지친 것이다. “내가 좋아하는 게 뭔지도 모르는 거야. 내가 나에 대해서 아는 게
+                    뭐가 있나 싶더라고.” 소녀시대의 멤버 태연이 한 TV 예능 프로그램에서 밝혀 화제가 된 이 고백처럼, 오늘날 우리 주위에는 이렇게 지치고 무기력해진 사람이 많다.
+                </div>
+                <h3 class="hidden">저자</h3>
+                <div class="tab_cont" id="tab3">
+                    03 <br>
+                    “왜 그렇게 열심히 살았던 걸까요? 좋아하는 게 뭔지도 모르면서.”
+                    왠지 자꾸만 마음이 쓸쓸하고 허무할 때가 있다. 지금 제대로 살고 있는 건지 앞으로 어떻게 살아야 할지 잘 모르겠고, 사람을 만나는 것도 피곤하기만 하다. 분명 하루하루 열심히
+                    사는데 행복하지 않다. 만약 이런 기분을 느끼고 있다면, 당신은 바쁘게 흘러가는 세상의 속도에 지친 것이다. “내가 좋아하는 게 뭔지도 모르는 거야. 내가 나에 대해서 아는 게
+                    뭐가 있나 싶더라고.” 소녀시대의 멤버 태연이 한 TV 예능 프로그램에서 밝혀 화제가 된 이 고백처럼, 오늘날 우리 주위에는 이렇게 지치고 무기력해진 사람이 많다.
+                </div>
+            </section>
+            <!-- //기타 정보 -->
+        </main>
+        <!-- //content -->
+    </div>
+    <!-- //body container -->
+
+    <!-- content bottom -->
+    <footer id="footer_container">
+        <!-- bottom box-->
+        <div class="bottom_box">
+            <div class="btn_left">
+                <button class="btn_zzim01">찜하기</button><button class="btn_zzim01 on">찜하기</button>
+            </div>
+            <div class="btn_right">
+                <ul class="btn">
+                    <li><a href="#" class="btn_b01">대여</a></li>
+                    <li><a href="#" class="btn_b01">구매</a></li>
+                    <li><a href="#" class="btn_b01"><em class="icon_sam_big">sam</em></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- btn top -->
+        <a href="#" class="btn_top">위로</a>
+    </footer> 
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/eink.css">
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/ui_eink.js"></script>
+</head>
+<body class="pagemain">  
+<!-- header container -->
+<header id="header_container">
+    <div class="header_fixed">
+        <!-- header top -->
+        <div class="header_top">
+            <h1 class="hidden">교보문고 sam 7.8</h1>
+            <!-- btn menu -->
+            <a href="#" class="btn_menu">메뉴보기</a>
+            <!-- search box -->
+            <div class="search_box">
+                <input type="text" id="" autocapitalize="off" class="form_sch01" placeholder="검색어를 입력하세요">
+                <a href="#" class="btn_sch">검색</a>
+            </div>
+            <!-- util -->
+            <div class="util"> 
+                <ul>
+                    <li><a href="#" class="btn_my">로그인</a></li> 
+                    <li><a href="#" class="btn_library">서재</a></li> 
+                    <li><a href="#" class="btn_zzim">찜하기</a></li>
+                </ul> 
+            </div>                
+        </div>
+        <!-- //header top -->
+        <!-- gnb -->
+        <nav class="gnb"> 
+            <ul>
+                <li><a href="#" class="on">일반</a></li> 
+                <li><a href="#">로맨스</a></li> 
+                <li><a href="#">BL</a></li>
+                <li><a href="#">판타지</a></li> 
+                <li><a href="#">코믹스</a></li> 
+                <li><a href="#" class="gnb_sam">sam</a></li> 
+                <li><a href="#">오디오</a></li>                                                
+            </ul> 
+        </nav>
+        <!-- //gnb -->            
+    </div>
+</header>
+<!-- //header container -->
+
+<!-- body container -->
+<div id="body_container">
+    <section class="content"><!-- 2020-07-07 layout 변경 -->
+        <h2 class="hidden">일반</h2><!-- 개발 : 카테고리 이름 넣어주세요 --> 
+        <!-- content -->
+        <div class="type_thumbnail"> <!-- 2020-07-07 content_inner 제거 -->
+            <!-- subgnb inner -->
+            <div class="subgnb_inner">
+                <!-- subgnb box -->
+                <!-- 일반 -->
+                <div class="subgnb_box">
+                    <!-- subgnb02 --> 
+                    <div class="subgnb02">
+                        <ul>
+                            <li><a href="#" class="on">베스트</a></li> 
+                            <li><a href="#">신간</a></li> 
+                            <li><a href="#">추천</a></li>
+                            <li><a href="#">대여</a></li> 
+                            <li><a href="#">무료</a></li> 
+                        </ul>
+                    </div>
+                    <!-- filter01 -->
+                    <div class="filter01">
+                        <!-- select -->
+                        <div class="selectbox w01">
+                            <select id="">
+                                <option value="">일간 베스트 </option>
+                                <option value="">주간 베스트</option>
+                                <option value="">월간 베스트</option>                                                                      
+                            </select> 
+                        </div> 
+                        <!-- //select -->
+                    </div>
+                </div>
+            </div>
+            <!-- //subgnb inner -->
+
+            <!-- book list01 -->
+            <div class="book_list01">
+                <!-- skeleton-screen -->
+                <div class="skeleton_screen01">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- //skeleton-screen -->
+                <ul class="list"> 
+                    <li>
+                        <div class="pic">
+                            <a href="#" class="icon_adult_full"><em class="bg_adult"></em> <em class="icon_adult19"></em>19세 이상 성인용</a>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/610/l480D200503610.jpg" alt="책이름">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="#"><em class="rank">1</em><span class="text">온 오어 페이스</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <span class="icon_adult">19세 이상 성인용</span>
+                            <span class="icon_sam">sam</span>
+                            <a href="#" class="icon_audio">오디오북</a>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/128/l9791187304128.jpg" alt="책이름">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="#"><em class="rank">99</em><span class="text">온 오어 페이스 오버 드라이브 드라이브드라이브</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <span class="icon_free">무제한</span>
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/641/l9791158740641.jpg"  alt="책이름">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="#"><em class="rank rank100">100</em><span class="text">온 오어 페이스 오버 드라이브 드라이브</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/610/l480D200503610.jpg" alt="책이름">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="#"><span class="text">온 오어 페이스</span></a>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="pic">
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/128/l9791187304128.jpg" alt="책이름">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="#"><span class="text">온 오어 페이스 오버 드라이브 드라이브</span></a>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="pic">
+                            <a href="#" class="cover">
+                                <img src="http://image.kyobobook.co.kr/images/book/large/641/l9791158740641.jpg" alt="책이름">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="#"><span class="text">온 오어 페이스 오버 드라이브 드라이브 드라이브 드라이브 드라이브</span></a>
+                        </div>
+                    </li> 
+                </ul>
+            </div> 
+            <!-- //book list01 --> 
+        </div> 
+        <!-- //content  -->                           
+        <!-- content bottom -->
+        <div class="content_bottom"> <!-- 2020-07-07 footer -> div tag 변경  -->
+            <!-- bottom box-->
+            <div class="bottom_box">
+                <div class="pagecount">
+                    <em>1</em>/<em>13</em>
+                </div>
+                <div class="pagination">
+                    <a href="#" class="btn_first">맨앞</a>
+                    <a href="#" class="btn_prev">이전</a>
+                    <span class="num">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <strong>3</strong>
+                        <a href="#">4</a>
+                    </span>
+                    <a href="#" class="btn_next">다음</a>
+                    <a href="#" class="btn_last">맨뒤</a>
+                </div>                              
+            </div>
+        </div>
+        <!-- //content bottom -->      
+    </section>
+</div>
+<!-- //body container -->
+</body>
+</html>

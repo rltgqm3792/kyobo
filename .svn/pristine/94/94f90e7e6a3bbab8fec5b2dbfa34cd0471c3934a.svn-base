@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/eink.css">
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/ui_eink.js"></script>
+<style>
+.title {padding:10px 0;}    
+.content_bottom {position: relative; margin-bottom:20px;}    
+</style>
+</head>
+<body class="pagesub"> 
+
+<!-- <p class="title">유형 01_A     '대여 + 구매 + sam' 가능한 경우</p>    -->
+<!-- content bottom -->
+<footer class="content_bottom">
+    <!-- bottom box-->
+    <div class="bottom_box">
+        <div class="btn_left">
+            <button class="btn_zzim01">찜하기</button><button class="btn_zzim01 on">찜하기</button>
+        </div>
+        <div class="btn_right">
+            <ul class="btn">
+                <li><a href="#" class="btn_b01">대여</a></li>
+                <li><a href="#" class="btn_b01">구매</a></li>
+                <li><a href="#" class="btn_b01"><em class="icon_sam_big">sam</em></a></li>
+            </ul>
+        </div>                              
+    </div>
+</footer>
+<!-- //content bottom -->   
+
+<!-- <p class="title">유형 01_B '구매 + sam' 가능한 경우 (찜 선택시 아이콘 확인)</p>  -->
+<!-- content bottom -->
+<footer class="content_bottom">
+    <!-- bottom box-->
+    <div class="bottom_box">
+        <div class="btn_left">
+            <button class="btn_zzim01 on">찜하기</button>
+        </div>
+        <div class="btn_right">
+            <ul class="btn">
+                <li><a href="#" class="btn_b01">구매</a></li>
+                <li><a href="#" class="btn_b01"><em class="icon_sam_big">sam</em></a></li>
+            </ul>
+        </div>                              
+    </div>
+</footer>
+<!-- //content bottom -->
+
+<!-- <p class="title">유형 02 시리즈 / 연재 (선택 회차 x 가격 표기) - 최대 100만원 단위까지 노출</p>  -->
+<!-- content bottom -->
+<footer class="content_bottom">
+    <!-- bottom box-->
+    <div class="bottom_box">
+        <div class="btn_left">
+            <button class="btn_zzim01">찜하기</button>
+        </div>
+        <div class="btn_right">
+            <ul class="btn">
+                <li><a href="#" class="btn_b01">대여 9,999,999원</a></li>
+                <li><a href="#" class="btn_b01">구매 9,999,999원</a></li>                
+                <li><a href="#" class="btn_b01"><em class="icon_sam_big">sam</em></a></li>
+            </ul>
+        </div>                              
+    </div>
+</footer>
+<!-- //content bottom -->
+
+<!-- <p class="title">유형 03 sam 이용권으로 열람중</p>  -->
+<!-- content bottom -->
+<footer class="content_bottom">
+    <!-- bottom box-->
+    <div class="bottom_box">
+        <div class="btn_left">
+            <button class="btn_zzim01">찜하기</button>
+        </div>
+        <div class="btn_right">
+            <ul class="btn">
+                <li><a href="#" class="btn_b01">대여</a></li>
+                <li><a href="#" class="btn_b01">구매</a></li>                
+                <li><a href="#" class="btn_b01"><em class="icon_sam_big">sam</em> 보기</a></li>
+            </ul>
+        </div>                              
+    </div>
+</footer>
+<!-- //content bottom -->
+
+<!-- <p class="title">유형 04 대여중인 도서 (sam 버튼 비노출)</p>  -->
+<!-- content bottom -->
+<footer class="content_bottom">
+    <!-- bottom box-->
+    <div class="bottom_box">
+        <div class="btn_left">
+            <button class="btn_zzim01">찜하기</button>
+        </div>
+        <div class="btn_right">
+            <ul class="btn">
+                <li><a href="#" class="btn_b01">바로보기</a></li>
+                <li><a href="#" class="btn_b01">구매</a></li>                
+            </ul>
+        </div>                              
+    </div>
+</footer>
+<!-- //content bottom -->
+
+<!-- <p class="title">유형 01_D '구매만' 가능한 경우</p>  -->
+<!-- content bottom -->
+<footer class="content_bottom">
+    <!-- bottom box-->
+    <div class="bottom_box">
+        <div class="btn_left">
+            <button class="btn_zzim01">찜하기</button>
+        </div>
+        <div class="btn_right">
+            <ul class="btn col01">
+                <li><a href="#" class="btn_b01">구매</a></li>
+            </ul>
+        </div>                              
+    </div>
+</footer>
+<!-- //content bottom --> 
+
+<!-- <p class="title">유형 05 기타 - 바로보기 / 무료다운로드 / 판매중지 동일</p>  -->
+<!-- content bottom -->
+<footer class="content_bottom">
+    <!-- bottom box-->
+    <div class="bottom_box">
+        <div class="btn_left">
+            <button class="btn_zzim01">찜하기</button>
+        </div>
+        <div class="btn_right">
+            <ul class="btn col01">
+                <li><a href="#" class="btn_b01">무료다운로드</a></li>
+            </ul>
+        </div>                              
+    </div>
+</footer>
+<!-- //content bottom --> 
+
+</body>
+</html>

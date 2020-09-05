@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+	<title>pub list</title>
+	<link rel="stylesheet" type="text/css" href="css/guide.css"/>
+	<link rel="stylesheet" type="text/css" href="css/table-sorter/tablesorter-style.css"/>
+	<script type="text/javascript" src="js/jquery-1.6.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script><!--Table Sorter-->
+	<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="js/common_ui.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	$(function(){
+		$("#ListTable").tablesorter({
+			headers: {
+				1: { sorter: false } ,
+				2: { sorter: false } ,
+				3: { sorter: false } ,
+				5: { sorter: false }
+			}
+		});
+	});
+	</script>
+<style>
+* {margin:0; padding:0;}
+body {height:100%; width:100%;font-family:돋움, 굴림, Dotum, Gulim, AppleGothic, dotum, gulim, arial, verdana, sans-serif;font-size:12px; color:#777777; line-height:16px !important;}
+* html #wrapper {height:100%; width:100%;} 
+
+/*dl, dt, dd, p, ul, li { font-family: '나눔고딕',NanumGothic, '맑은고딕', AppleGothic, dotum, gulim, arial, verdana, sans-serif; color:#777777;}*/
+th, td, input, textarea, select, form, button  { font-family: dotum, gulim, arial, verdana, sans-serif; color:#555555;font-size:12px;}
+
+form, p, ul, ol, li, dl, dt, dd {margin:0; padding:0;}
+ol,ul {list-style:none;}
+img, fieldset, table {border:0;}
+hr, legend, caption, address {display:none;}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+label {font-weight:normal;}
+img {vertical-align:middle;}
+table {border-collapse:separate; width:100%; border-spacing:0; padding:0;} /* separate collapse */
+em, address{font-style:normal}
+
+a {color:#666666; text-decoration:none !important;}
+a:hover {color:#5668ae; text-decoration:none !important;}
+
+a:link,a:active, a:visited { color: #000; text-decoration: none; }
+a.edit:link,a.edit:active, a.edit:visited { color: #ec2121; text-decoration: none; }
+a:hover	{ color: #ec2121; text-decoration: underline; }
+span.blue	{ color:#1d4e9b; font-weight:bold; }
+a.blue:link, a.blue:active, a.blue:visited { color: #0033ff; text-decoration: none; }
+a.blue:hover { color: #0033ff; text-decoration: underline; }
+h1 {display:block;padding:15px 0 15px 15px; background:#5668ae; color:#fff; font-size:18px; font-weight:600; font-family:"Malgun Gothic"}
+h2 {padding:10px 0 10px 0; border:0px; color:#333; font:bold 16px "Malgun Gothic"}
+.cont {padding:0 15px 10px 15px;}
+.list tr td:nth-child(10) { color: #ec2121; text-decoration: none; }
+.edit { color: #ff0000 !important; text-decoration: none; }
+
+.bg_sam01 {background: #eee;}
+
+/* table search */
+img, fieldset, table {border:0;}
+table {border-collapse:separate; width:100%; border-spacing:0; padding:0;}
+
+/* table */
+.tbl-list {border-top:2px solid #000;border-bottom:1px solid #000; margin-top:10px;}
+.tbl-list.top-blank {margin-top:70px;}
+.tbl-list th {background:#f9fbfd;color:#000;padding:5px 7px;height:40px;border-right:1px solid #e0e0e0;border-top:1px solid #e0e0e0;text-align:center;color:#555555;font-weight:bold;}
+.tbl-list th.first, .tbl-list td.first {border-left:1px solid #e0e0e0; font-weight:bold; background:#f9fbfd;}
+.tbl-list td {padding:13px 7px 8px;height:20px;color:#000;border-right:1px solid #e0e0e0;border-top:1px solid #e0e0e0; border-left: 1px solid #e0e0e0; vertical-align:top;}
+.tbl-list tr:first-child td:first-child  {border-left:1px solid #e0e0e0;}
+.tbl-list tr.popup td, .tbl-list tr.popup td a {color:#8220fa;}
+.tbl-list td a {color:#000;text-decoration:underline ;}
+.ta-left {text-align:left !important;}
+.ta-center {text-align:center !important;}
+.ta-right {text-align:right !important;}
+
+.anchor-list {margin:20px 0 -45px 0;}
+.anchor-list:after {display:block;clear:both;content:''}
+.anchor-list li {float:left; padding: 10px;}
+.anchor-list li a {color:#fd6c6c; font-weight:bold; text-decoration:underline;}
+
+.xmp_info {border:1px solid #ccc;font-size: 10pt; margin:0 0 20px 0;}
+.xmp_info xmp {font-size: 9pt;padding:0;margin:-10px 0 10px 0;}
+
+.btn-area {float:right; padding-right:20px; margin-top:-37px;}
+.btn-area > a {display:inline-block; border-radius: 15px; color:#0095dd; border:0px solid #fff; width:100px; line-height:28px; background:#fff; text-align:center; font-weight:bold;}
+.sub_info {padding:20px 10px 0 0; text-align: right;}
+
+</style>
+</head>
+
+<body>
+	<h1>교보문고 EINK - PUB LIST</h1>
+	<div class="cont" style="margin-bottom:100px;">
+	<!-- <div class="xmp_info">
+	<xmp>
+	</xmp>
+	</div> -->
+
+<!-- <ul class="anchor-list">
+	<li><a href="#section1">공통 (KS-com)</a> </li>
+	<li><a href="#section2">팝업 (KS-popup)</a></li>
+	<li><a href="#section3">각국문서 (KS-01)</a></li>
+	<li><a href="#section4">감식업무 (KS-02)</a></li>
+	<li><a href="#section5">관리자 (KS-04)</a></li>
+	<li><a href="#section6">시스템 모니터링 (KS-03)</a></li>
+	<li><a href="#section7">통합검색 (KS-com)</a></li>
+	<li><a href="#section8">ICRM (KS-ICRM)</a></li>
+</ul> -->
+
+		<div class="sub_info"><a href="https://einkdev.kyobobook.co.kr/eink" target="_blank">개발 url</a></div>
+		<table class="tbl-list">
+		<colgroup>
+			<col style="width:100px;"/>
+			<col class="depth-1" style="width:120px;"/>
+			<col class="depth-1" style="width:140px;"/>
+			<col style="width:10%"/>
+			<col style="width:10%"/>
+			<col style="width:10%;"/>
+		</colgroup>
+		<thead>
+			<tr>
+				<th class="first">구분</th>
+				<th colspan="2">페이지명</th>
+				<th>File Name</th>
+				<th>Date</th>
+				<th>비고</th>				
+			</tr>
+		</thead>
+		<tbody>
+<!-- 공통 
+		<tr>
+			<td rowspan="2" class="first ta-center" id="section1">공통</td>
+			<td class="depth-1">layout</td>
+			<td><a href="" target="_blank"></a></td>
+			<td class="ta-center"></td>
+			<td class="ta-center"></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr class="popup">
+			<td class="depth-1"></td>
+			<td><a href="#" target="_blank"></a></td>
+			<td class="ta-center"></td>
+			<td class="ta-center"></td>
+			<td>&nbsp;</td>
+		</tr>-->
+		<tr>
+			<td rowspan="3">공통</td>
+			<td>팝업</td>
+			<td>모달팝업(가이드)</td>
+			<td><a href="page_popup01.html" target="_blank">page_popup01.html</a></td>
+			<td></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>모달팝업(정리)</td>
+			<td><a href="page_popup02.html" target="_blank">page_popup02.html</a></td>
+			<td>07/15</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td><a href="#" target="_blank"></a></td>
+			<td></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td rowspan="7">메인 ebook</td>
+			<td>목록</td>
+			<td>썸네일형</td>
+			<td><a href="page_list01.html" target="_blank">page_list01.html</a></td>
+			<td>06/22</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr> 
+			<td></td>
+			<td>카테고리 모음</td>
+			<td><a href="page_list01_cate.html" target="_blank">page_list01_cate.html</a></td>
+			<td>07/03</td>
+			<td>주석 : 2020-07-03</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>sma 스페셜(메인)</td>
+			<td><a href="page_list02.html" target="_blank">page_list02.html</a></td>
+			<td>06/29</td>
+			<td>&nbsp;</td>
+		</tr>	
+		<tr>
+			<td></td>
+			<td>sma 스페셜(서브)</td>
+			<td><a href="page_list03.html" target="_blank">page_list03.html</a></td>
+			<td>06/29</td>
+			<td>&nbsp;</td>
+		</tr>				
+		<tr>
+			<td></td>
+			<td>썸네일형(결과없음)</td>
+			<td><a href="page_list01_no.html" target="_blank">page_list01_no.html</a></td>
+			<td>06/22</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>썸네일형(스켈레톤)</td>
+			<td><a href="page_list01_skeleton.html" target="_blank">page_list01_skeleton.html</a></td>
+			<td>06/22</td>
+			<td>&nbsp;</td>
+		</tr>	
+		<tr> 
+			<td></td>
+			<td>리스트형</td>
+			<td><a href="page_category_list01.html" target="_blank">page_category_list01.html</a></td>
+			<td>07/13</td>
+			<td>서책썸네일, 서책제목만 링크 </td>
+		</tr>		
+		<tr>
+			<td rowspan="3">상세</td>
+			<td>통합</td>
+			<td>　</td>
+			<td><a href="page_view01.html" target="_blank">page_view01.html</a></td>
+			<td>　</td>
+			<td>　</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>footer 버튼 - 모음</td>
+				<td><a href="page_view01_btn01.html" target="_blank">page_view01_btn01.html</a></td>
+				<td>　</td>
+				<td>　</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>상세팝업-이미지</td>
+				<td><a href="page_view01_preview.html" target="_blank">page_view01_preview.html</a></td>
+				<td>07/09</td>
+				<td>　</td>
+			</tr>
+			<!-- <tr>
+				<td></td>
+				<td>시리즈 목록 - 모음</td>
+				<td><a href="page_view02.html" target="_blank">page_view02.html</a></td>
+				<td>　</td>
+				<td>　</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>구매대여 - 모음</td>
+				<td><a href="page_view03.html" target="_blank">page_view03.html</a></td>
+				<td>　</td>
+				<td>　</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>버튼 - 모음</td>
+				<td><a href="page_view01_btn01.html" target="_blank">page_view01_btn01.html</a></td>
+				<td>　</td>
+				<td>　</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>　</td>
+				<td>　</td>
+				<td>　</td>
+				<td>　</td>
+			</tr>				
+		<tr class="bg_sam01">
+			<td>제목위 아이콘 없는 경우</td>
+			<td></td>
+			<td><a href="page_view0102.html" target="_blank">page_view0102.html</a></td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+			<tr class="bg_sam01">
+			<td>부제목없는경우</td>
+			<td>　</td>
+			<td><a href="page_view0103.html" target="_blank">page_view0103.html</a></td>
+			<td>　</td>
+			<td>　</td>
+		</tr>
+		<tr class="bg_sam01">
+			<td>제목이 2줄이상일 경우</td>
+			<td>　</td>
+			<td><a href="page_view0104.html" target="_blank">page_view0104.html</a></td>
+			<td>　</td>
+			<td>　</td>
+		</tr> -->
+
+		<tr>
+			<td>미리보기/미리듣기</td>
+			<td>ePub, PDF, zip, mp3</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="4">검색</td>
+			<td>검색어 자동완성1</td>
+			<td>메인</td>
+			<td><a href="page_search_01.html" target="_blank">page_search_01.html</a></td>
+			<td>07/13</td>
+			<td>　</td>
+		  </tr>
+		<tr> 
+			<td>검색어 자동완성2</td>
+			<td>서브</td>
+			<td><a href="page_search_02.html" target="_blank">page_search_02.html</a></td>
+			<td>07/13</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="2">검색결과(리스트)</td>
+			<td>전체</td>
+			<td><a href="page_search_01_result.html" target="_blank">page_search_01_result.html</a></td>
+			<td>07/13</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>없음</td>
+			<td><a href="page_search_02_noResult.html" target="_blank">page_search_02_noResult.html</a></td>
+			<td>07/13</td>
+			<td>　</td>
+		  </tr> 
+		<tr>
+			<td rowspan="5">결제</td>
+			<td rowspan="3">e캐시 결제(구매, 대여)</td>
+			<td>결제화면</td>
+			<td><a href="page_ecash01.html" target="_blank">page_ecash01.html</a></td>
+			<td>07/08</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>결제처리/결과</td>
+			<td><a href="page_ecash02.html" target="_blank">page_ecash02.html</a></td>
+			<td>07/08</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>교보e캐시 이용안내</td>
+			<td><a href="page_ecash03_notice.html" target="_blank">page_ecash03_notice.html</a></td>
+			<td>07/08</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="2">sam    이용권 차감</td>
+			<td>sam 페이직 이용권 차감</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>sam 무제한 이용권 차감</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="2">My</td>
+			<td>보유e캐시 잔액, 결제내역, sam이용권정보</td>
+			<td>　</td>
+			<td><a href="page_myroom01_02.html" target="_blank">page_myroom01_02.html</a></td>
+			<td>07/09</td>
+			<td>　</td>
+		  </tr>
+		<tr> 
+			<td>내역없음</td>
+			<td>　</td>
+			<td><a href="page_myroom01.html" target="_blank">page_myroom01.html</a></td>
+			<td>07/09</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="2">찜</td>
+			<td>찜 목록</td>
+			<td>　</td>
+			<td><a href="page_myroom02.html" target="_blank">page_myroom02.html</a></td>
+			<td>07/13</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>찜 없음</td>
+			<td>　</td>
+			<td><a href="page_myroom02_zzimEmpty.html" target="_blank">page_myroom02_zzimEmpty.html</a></td>
+			<td>07/09</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="3">주문내역</td>
+			<td>주문내역 리스트</td>
+			<td>　</td>
+			<td><a href="page_myroom03.html" target="_blank">page_myroom03.html</a></td>
+			<td>07/09</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+
+			<td>주문내역 상세</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>주문 취소</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="2">이용권 등록</td>
+			<td>증정권 등록</td>
+			<td>　</td>
+			<td><a href="page_myroom04_pin.html" target="_blank">page_myroom04_pin.html</a></td>
+			<td>07/09</td>
+			<td>　</td>
+		  </tr> 
+		<tr>
+			<td>sam 이용권 유의사항</td>
+			<td>　</td>
+			<td><a href="page_myroom05_notice.html" target="_blank">page_myroom05_notice.html</a></td>
+			<td>07/09</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="2">성인인증</td>
+			<td>성인인증 안내</td>
+			<td>　</td>
+			<td><a href="page_popup02.html" target="_blank">page_popup02.html</a></td>
+			<td>07/07</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>인증 프로세스</td>
+			<td>　</td>
+			<td><a href="page_adult01.html" target="_blank">page_adult01.html</a></td>
+			<td>07/07</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="4">로그인/로그아웃</td>
+			<td>일반로그인</td>
+			<td>　</td>
+			<td><a href="page_login.html" target="_blank">page_login.html</a></td>
+			<td>07/06</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>네이버로그인</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>로그아웃</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>자동로그인</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td rowspan="3">안내</td>
+			<td>이용안내</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+			<td>　</td>
+		  </tr>
+		<tr>
+			<td>네트워크 연결 안내</td>
+			<td>　</td>
+			<td><a href="page_network.html" target="_blank">page_network.html</a></td>
+			<td>07/15</td>
+			<td>　</td>
+		  </tr>	
+		<tr>
+			<td>에러페이지</td>
+			<td>　</td>
+			<td><a href="page_error.html" target="_blank">page_error.html</a></td>
+			<td>08/21</td>
+			<td>　</td>
+		  </tr>	
+		  	
+		</tbody>
+		</table>
+
+	</div>
+</body>
+</html>

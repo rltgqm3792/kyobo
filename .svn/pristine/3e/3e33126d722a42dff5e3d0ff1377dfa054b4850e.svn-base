@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/eink.css">
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/ui_eink.js"></script>
+</head>
+<body class="pagesub"> 
+<!-- header container -->
+
+ <!-- header container -->
+<header id="header_container">
+    <div class="header_fixed">
+        <!-- header top -->
+        <div class="header_top">
+            <h1 class="hidden">교보문고 sam 7.8</h1>
+            <!-- title --> 
+            <div class="top_area">
+                <p class="location" id="pNavigate"><span></span></p>
+            </div>
+            <!-- btn back -->
+            <a href="javascript:void(0);" class="btn_back" onclick='history.back();'>이전페이지</a>
+            <!-- util -->
+            <div class="util"> 
+                <ul>
+                    <li><a href="/eink/" class="btn_home">메인</a></li> 
+                    <li><button type="button"  class="btn_sch">검색</button></li> 
+                    <li><a href="#" class="btn_zzim">찜하기</a></li>
+                </ul> 
+            </div>                
+        </div>
+        <!-- //header top -->
+    </div>
+</header>
+<!-- //header container -->
+<!-- body container -->
+<div id="body_container">
+    <!-- content  -->  
+    <main class="content"> <!-- 2020-07-23 class 변경 -->
+        <!-- adult_info -->
+        <div class="adult_info">
+            <p class="title">
+                본 상품은 <strong>본인인증</strong> 후<br/>
+                이용할 수 있습니다.
+            </p>
+            <a href="#" class="btn_exit">19세 미만 나가기</a>
+            <p class="desc">
+                본 상품은 청소년에게 유해한 성인 컨텐츠를 포함하고 있어,<br/>로그인 후 별도의 본인인증 절차가 필요합니다.
+            </p>
+            <ul class="list-dash">
+                <li>연 1회 나이 및 본인확인을 하면 청소년 유해매체물을 이용할 수 있습니다.<br/>인증 후 1년간 인터넷교보문고 서비스에 적용됩니다.</li>
+                <li>청소년보호법 제 16조 및 통합 시행령 제 7조와 여성가족부의 정책에 따라<br/>19세 미만의 청소년은 이용할 수 없습니다.</li>
+            </ul>
+        </div>
+        <!-- // adult_info -->
+
+        <!-- adult_certify -->
+        <div class="adult_certify">
+            <fieldset>
+                <legend>성인인증</legend>
+                <div class="forms">
+                    <div class="row is_pick">
+                        <span class="radio_box01">
+                            <input type="radio" name="adult" id="휴대폰">
+                            <label for="휴대폰">휴대폰 인증</label>
+                        </span>
+                        <span class="radio_box01">
+                            <input type="radio" name="adult" id="아이핀">
+                            <label for="아이핀">아이핀 인증</label>
+                        </span>
+                    </div>
+
+                    <!-- cell_certify --->
+                    <div class="cell_certify">
+                        <div class="row is_phone">
+                            <input type="text" class="input" title="휴대폰번호" placeholder="휴대폰 번호 '-' 제외하고 숫자만 입력해주세요" />
+                            <a href="#" class="btn_m02">인증번호 발송</a>  
+                        </div>
+                        <div class="row is_number">
+                            <input type="text" class="input" title="인증번호" placeholder="인증번호 6자리를 입력해주세요">
+                            <span class="txt">(남은시간 3분 00초)</span>
+                        </div>
+                        <div class="row">
+                            <ul class="list-dot">
+                                <li>회원 가입시 등록된 휴대폰 번호로 발송 된 인증번호 6자리를 입력해주세요.</li>
+                                <li>청소년유해물 접근을 위한 확인절차로 회원가입 시 등록한 휴대폰번호로만 확인이 가능합니다.</li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <!-- // cell_certify --->
+                </div>
+                <div class="certify_setting">
+                    <span class="check_box02">
+                        <input type="checkbox" id="매회">
+                        <label for="매회">19+ 매회 열람 시 성인인증 설정</label>
+                        <a href="#" class="btn_tooltip">인증주기 설정 안내</a>
+                    </span>
+                </div>
+                <div class="btn_area">
+                    <button type="button" class="btn_m02 submit">확인</button>
+                    <a href="#" class="btn_m02">취소</a>
+                </div>
+            </fieldset>
+        </div>
+        <!-- // adult_certify -->
+
+    </main>       
+    <!-- //content --> 		
+</div>     
+<!-- //body container -->
+
+</body>
+</html>
+

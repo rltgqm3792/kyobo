@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/eink.css">
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/ui_eink.js"></script>
+</head>
+<body> 
+<!-- header container -->
+<header id="header_container">
+    <div class="header_fixed">
+        <!-- header top -->
+        <div class="header_top">
+            <h1 class="hidden">교보문고 sam 7.8</h1>
+            <!-- btn back -->
+            <a href="#" class="btn_back">이전페이지</a>
+            <!-- util -->
+            <div class="util"> 
+                <ul>
+                    <li><a href="#" class="btn_home">메인</a></li> 
+                    <li><button type="button"  class="btn_sch">검색</button></li>  
+                </ul> 
+            </div>      
+            <!--  search -->
+            <div class="search_area">
+                <p><strong>&apos;<span>앨리스</span>&apos;</strong>으로 총 <span>554</span>건 검색</p>
+            </div>  
+            <!--  //search --> 
+        </div>
+        <!-- //header top -->
+    </div>
+</header>
+<!-- //header container -->
+
+<!-- body container -->
+<div id="body_container"> 
+	<!-- content  --> 
+	<section class="bookList_wrap">
+        <h2 class="hidden">검색</h2>
+        <div class="hd">
+            <div class="subgnb_box">
+                <!-- subgnb01 -->
+                <div class="subgnb01">
+                    <ul>
+                        <li><a href="#" class="">전체</a></li> 
+                        <li><a href="#" class="on">무료</a></li> 
+                        <li><a href="#" class="">대여</a></li> 
+                        <li><a href="#" class="">sam베이직</a></li> 
+                        <li><a href="#" class="">sam무제한</a></li> 
+                    </ul>
+                </div>  
+                <!-- filter01 -->
+                <div class="filter01">
+                    <!-- select -->
+                    <div class="selectbox">
+                        <select id="">
+                            <option value="">전체</option>
+                            <option value="">일반도서</option>
+                            <option value="">로맨스</option>
+                            <option value="">판타지</option>
+                            <option value="">코믹스</option>
+                            <option value="">BL소설</option>
+                        </select> 
+                    </div> 
+                    <!-- //select -->
+                    <!-- select -->
+                    <div class="selectbox">
+                        <select id="">
+                            <option value="">정확도순</option>
+                            <option value="">판매인기순</option>
+                            <option value="">누적판매순</option>
+                            <option value="">상품명순</option>
+                            <option value="">높은가격순</option>
+                            <option value="">낮은가격순</option>
+                            <option value="">종이책출간일순</option>
+                        </select> 
+                    </div> 
+                    <!-- //select -->
+                </div>
+            </div>
+        </div>
+        <div class="bookListType01">
+            <!-- 검색결과 없음 -->
+            <div class="searchResult_no">
+                <p class="emph"><strong>'ㅇㅈ'</strong>에 대한 검색결과가 없습니다.</p>
+                <p>
+                    검색어의 철자가 정확한지 다시 한번 확인해주세요.<br/>
+                    검색어의 단어 수를 줄이거나, 두 단어 이상의 검색어인 경우,<br/>
+                    띄어쓰기를 해주세요.
+                </p>
+            </div>
+            <!-- // 검색결과 없음 -->
+        </div>                  
+	</section>
+	<!-- //content --> 
+</div>
+<!-- //body container -->
+
+</body>
+</html>

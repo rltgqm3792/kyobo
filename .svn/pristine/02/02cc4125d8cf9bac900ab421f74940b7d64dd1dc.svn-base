@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/eink.css">
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/ui_eink.js"></script>
+</head>
+<body class="pagesub">
+<!-- body container -->
+<div id="body_container">
+<section>
+    <!-- content  -->
+    <div class="content">
+        <!-- content inner -->
+        <div class="content_inner">
+            <button type="button" class="btn_m01" id="test">sys(450px)</button>
+            <button type="button" onclick="openModal('modal_s01'); return false;" class="btn_m01 modal-open">작은사이즈(450px)</button>
+            <button type="button" onclick="openModal('modal_m01'); return false;" class="btn_m01 modal-open">중간사이즈(560px)</button>
+
+            <div style="padding-top:50px;">
+                <a href="page_popup02.html" class="btn_m01" target="_blank">모달 팝업 - 콘텐츠</a>
+            </div>
+        </div>
+    </div>
+    <!-- //content -->
+</section>
+<!-- //body container -->
+</div>
+<style>
+
+
+</style>
+<!--popup modal s01 -->
+<div id="modal"></div>
+<div class="modal_wrap modal_s01">
+    <div class="modal_content">
+        <div class="alert_box">
+            sam 이용권 잔여 권 수가 부족합니다.
+        </div>
+        <!-- btn -->
+        <div class="btn_area">
+            <a href="#" class="btn_b02 close">확인</a>
+        </div>
+    </div>
+</div>
+<!--//popup modal s01 --> 
+
+<!--popup modal s02 -->
+<div id="modal"></div>
+<div class="modal_wrap modal_s02">
+    <div class="modal_content">
+        <div class="alert_box">
+            sam 열람중인 도서입니다.<br>대여하시겠습니까?
+        </div>
+        <!-- btn -->
+        <div class="btn_area col02">
+            <a href="#" class="btn_b02">확인</a>
+            <a href="#" class="btn_b02 close">취소</a>   
+        </div>
+    </div>
+</div>
+<!--//popup modal s02 --> 
+
+<!--popup modal m01 -->
+<div id="modal"></div>
+<div class="modal_wrap modal_m01">
+    <h1 class="title">나의 sam 이용권</h1>
+    <div class="modal_content">
+        내용
+    </div>
+    <!-- btn close -->
+    <a href="#" class="btn_close close">닫기</a>
+</div>
+<!--//popup modal m01 --> 
+
+
+
+</body>
+</html>

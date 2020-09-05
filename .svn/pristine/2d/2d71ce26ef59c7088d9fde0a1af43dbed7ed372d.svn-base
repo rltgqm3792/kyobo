@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/elink.css">
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/ui_elink.js"></script>
+</head>
+<body class="pagesub">
+<div id="m_wrap">
+    <!-- header container -->
+    <header id="header_container">
+        <div class="header_fixed">
+            <!-- header top -->
+            <div class="header_top">
+                <!-- btn back -->
+                <a href="#" class="btn_back">이전페이지</a>
+                <!-- title -->
+                <div class="top_title">
+                    <h1><span>소설</span> > <span>영미소설</span></h1>
+                </div>
+                <!-- util -->
+                <div class="util"> 
+                    <ul>
+                        <li><a href="#" class="btn_home">메인</a></li> 
+                        <li><a href="#" class="btn_sch">검색</a></li> 
+                        <li><a href="#" class="btn_zzim">찜하기</a></li>
+                    </ul> 
+                </div>                
+            </div>
+            <!-- //header top -->
+        </div>
+    </header>
+    <!-- //header container -->
+
+    <!-- body container -->
+    <section id="body_container">
+        <!-- content  -->
+        <div class="content">
+            <!-- content inner -->
+            <div class="content_inner">
+           
+                <!-- book view01 -->
+                <div class="book_view01">
+                    <ul class="view"> 
+                        <li>
+                            <div class="pic">
+                                <img src="../images/img_pic01_view01.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <span class="icon_state">세트</span>
+                                <div class="title">
+                                    허밍버드 클래식시리즈 10권 세트
+                                </div>
+                                <div class="info">
+                                    <p class="text"><span>루이스 캐럴, 루시M. 몽고메리 외 지음</span> <span>필름(Feelm)</span></p>
+                                    <p class="date">2020년 03월 11일</p>
+                                    <p class="epub">ePUB : 14.32MB / ISBN : 9791157955176</p> 
+                                    <p class="point">
+                                        <span class="wrap"><span class="value" style="width: 50%"></span></span> 
+                                        <span class="grade">9.5</span>
+                                        <span class="unit"><em>182</em>명</span>
+                                    </p>                                   
+                                </div> 
+                                <a href="#" class="btn_m01">미리보기</a>                              
+                            </div>
+
+                        </li>
+                    </ul>
+                </div> 
+                <!-- //book view01 --> 
+
+                <!-- tbl view01 -->
+                <div class="tbl_view01">
+                    <table>
+                        <caption>구매 정보</caption>
+                        <colgroup>
+                            <col style="width:33%"><col style="width:33%"><col style="width:34%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">대여</th>
+                                <th scope="col">구매(소장)</th>
+                                <th scope="col">월정액 sam</th>
+                            </tr>
+                        </thead>                        
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>
+                                        <span class="price01"><em>4,500</em>원</span> 
+                                        <span class="day01">(<em>90</em>일)</span>
+                                    </p>
+                                    <p>
+                                        <span class="price02">
+                                        <em>5,000</em>원</span>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <span class="price01"><em>4,500</em>원</span> 
+                                    </p>
+                                    <p>
+                                        <span class="price02">
+                                        <em>10,000</em>원</span>
+                                    </p>
+                                </td>
+                                <td>
+                                    <span class="icon_small01"><em class="icon_text_sam">sam</em>베이직</span>
+                                    <span class="icon_small01"><em class="icon_text_sam">sam</em>무제한</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> 
+                <!-- //tbl view01 -->
+                <!-- title -->
+                <div class="title">
+                    <h2>세트 구성 상품 (전 10권)</h2>  
+                </div>
+
+                <!-- book view02 -->
+                <div class="book_view02">
+                    <ul class="view"> 
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                           
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사마법사마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사마법사마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                         
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사마법사마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                          
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사마법사마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                            
+                        </li> 
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                           
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사마법사마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사마법사마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                         
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사마법사마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                          
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="pic"><img src="../images/img_pic_view01s.png" alt=""></div>
+                                <div class="title">오즈의 마법사마법사마법사</div>
+                                <div class="price">구매 4,800원</div> 
+                            </a>                            
+                        </li>                                                                                                                       
+                    </ul>
+                </div> 
+                <!-- //book list01 --> 
+                <!-- btn area -->
+                <a href="#" class="btn_m02 on">세트 닫기 <em class="icon_close01">닫기</em></a>
+             
+                <!-- tab01 -->
+                <ul class="tab01">
+                    <li><a href="#" class="on">책소개</a></li> 
+                    <li><a href="#">목차</a></li> 
+                    <li><a href="#">저자</a></li>
+                </ul> 
+                <div class="tab_cont">
+                    “왜 그렇게 열심히 살았던 걸까요? 좋아하는 게 뭔지도 모르면서.”
+                    왠지 자꾸만 마음이 쓸쓸하고 허무할 때가 있다. 지금 제대로 살고 있는 건지 앞으로 어떻게 살아야 할지 잘 모르겠고, 사람을 만나는 것도 피곤하기만 하다. 분명 하루하루 열심히 사는데 행복하지 않다. 만약 이런 기분을 느끼고 있다면, 당신은 바쁘게 흘러가는 세상의 속도에 지친 것이다. “내가 좋아하는 게 뭔지도 모르는 거야. 내가 나에 대해서 아는 게 뭐가 있나 싶더라고.” 소녀시대의 멤버 태연이 한 TV 예능 프로그램에서 밝혀 화제가 된 이 고백처럼, 오늘날 우리 주위에는 이렇게 지치고 무기력해진 사람이 많다.
+                </div>             
+            </div> 
+            <!-- //content inner -->  
+
+            <!-- content bottom -->
+            <div class="content_bottom">
+                <!-- bottom box-->
+                <div class="bottom_box">
+                    <div class="btn_left">
+                        <a href="#" class="btn_zzim01">찜하기</a>
+                    </div>
+                    <div class="btn_right">
+                        <ul class="btn">
+                            <li><a href="#" class="btn_b01">대여</a></li>
+                            <li><a href="#" class="btn_b01">구매</a></li>
+                            <li><a href="#" class="btn_b01"><em class="icon_sam_big">sam</em></a></li>
+                        </ul>
+                    </div>                              
+                </div>
+            </div>
+            <!-- //content bottom -->            
+        </div>
+        <!-- //content -->
+    </section>
+    <!-- //body container -->
+</div>
+</body>
+</html>

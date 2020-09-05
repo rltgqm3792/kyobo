@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>교보ebook</title>
+<meta name="title" content="교보ebook">
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta name="robots" content="ALL">
+<meta name="subject" content="교보ebook">
+<meta name="author" content="교보ebook">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/eink.css">
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/ui_eink.js"></script>
+</head>
+<body class="pagemain">  
+<!-- header container -->
+<header id="header_container">
+    <div class="header_fixed">
+        <!-- header top -->
+        <div class="header_top">
+            <h1 class="hidden">교보문고 sam 7.8</h1>
+            <!-- btn menu -->
+            <a href="#" class="btn_menu">메뉴보기</a>
+            <!-- search box -->
+            <div class="search_box">
+                <input type="text" id="" autocapitalize="off" class="form_sch01" placeholder="검색어를 입력하세요">
+                <a href="#" class="btn_sch">검색</a>
+            </div>
+            <!-- util -->
+            <div class="util"> 
+                <ul>
+                    <li><a href="#" class="btn_my">로그인</a></li> 
+                    <li><a href="#" class="btn_library">서재</a></li> 
+                    <li><button type="button" class="btn_zzim">찜하기</button></li>
+                </ul> 
+            </div>                
+        </div>
+        <!-- //header top -->
+        <!-- gnb -->
+        <nav class="gnb"> 
+            <ul>
+                <li><a href="#">일반</a></li> 
+                <li><a href="#">로맨스</a></li> 
+                <li><a href="#">BL</a></li>
+                <li><a href="#">판타지</a></li> 
+                <li><a href="#">코믹스</a></li> 
+                <li><a href="#" class="gnb_sam on">sam</a></li> 
+                <li><a href="#">오디오</a></li>                                                
+            </ul> 
+        </nav>
+        <!-- //gnb -->            
+    </div>
+</header>
+<!-- //header container -->
+
+<!-- body container -->
+<div id="body_container">
+    <section>
+        <h2 class="hidden">일반</h2><!-- 개발 : 카테고리 이름 넣어주세요 -->
+        <!-- content  -->
+        <div class="content">
+            <!-- content inner -->
+            <div class="content_inner type_thumbnail">
+                <!-- subgnb inner -->
+                <div class="subgnb_inner">
+                    <!-- subgnb box -->
+                    <!-- sam -->
+                    <div class="subgnb_box" style="display: block;">
+                        <!-- subgnb01 -->
+                        <div class="subgnb01">
+                            <ul class="sam">
+                                <li><a href="#">sam베이직</a></li> 
+                                <li><a href="#">sam무제한</a></li> 
+                                <li><a href="#" class="on">sam스페셜</a></li>                                 
+                            </ul>
+                        </div> 
+                    </div>   
+                </div>
+                <!-- //subgnb inner -->
+
+                <!-- book list01 -->
+                <div class="book_list01 skeleton_screen">
+                    <ul class="list"> 
+                        <li>
+                            <div class="pic">
+                                <a href="#" class="cover">
+                                    <img src="../images/img_ssam01.png" alt="책이름"> 
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#"><span class="text">뽀로로동화 무제한</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <a href="#" class="cover">
+                                    <img src="../images/img_ssam02.png" alt="책이름"> 
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#"><span class="text">판타지/무협 무제한</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <a href="#" class="cover">
+                                    <img src="../images/img_ssam03.png" alt="책이름"> 
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#"><span class="text">열린책들 세계문학 <br>무제한</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <a href="#" class="cover">
+                                    <img src="../images/img_ssam04.png" alt="책이름"> 
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#"><span class="text">펭귄클래식 무제한</span></a>
+                            </div>
+                        </li> 
+                        <li>
+                            <div class="pic">
+                                <a href="#" class="cover">
+                                    <img src="../images/img_ssam05.png" alt="책이름"> 
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#"><span class="text">북잼주니어 무제한</span></a>
+                            </div>
+                        </li> 
+                        <li>
+                            <div class="pic">
+                                <a href="#" class="cover">
+                                    <img src="../images/img_ssam06.png" alt="책이름"> 
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="#"><span class="text">웅진스마트 영어동화<br>무제한</span></a>
+                            </div>
+                        </li>  
+                    </ul>
+                </div> 
+                <!-- //book list01 --> 
+            </div> 
+            <!-- //content inner -->                           
+            <!-- content bottom -->
+            <footer class="content_bottom">
+                <!-- bottom box-->
+                <div class="bottom_box">
+                    <div class="pagecount">
+                        <em>1</em>/<em>1</em>
+                    </div>
+                    <div class="pagination">
+                        <span class="num">
+                            <strong>1</strong>
+                        </span>
+                    </div>                              
+                </div>
+            </footer>
+            <!-- //content bottom -->            
+        </div>
+        <!-- //content -->
+    </section>
+</div>
+<!-- //body container -->
+</body>
+</html>
