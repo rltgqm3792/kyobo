@@ -873,7 +873,7 @@ ul.tab01.type3 li {width:100%;} /*2020-07-24 tab 100% 추가*/
 .list_zzim .data_no > span:before {content:''; display:block; width:60px; height:60px; margin:0 auto 25px; background:url('../images/icon_zzim03.png') no-repeat 0 0; background-size:contain;}
 .list_book .data_no > span:before {content:''; display:block; width:60px; height:60px; margin:0 auto 25px; background:url('../images/icon_history02.png') no-repeat 0 0; background-size:contain;}
 .list_zzim .data_no > span:after,.list_book .data_no > span:after {content:''; display:block; width:40px; height:2px; margin:30px auto 0; background-color:#333;}
-.list_book .data_no {height:auto; margin: 80px 0;}
+.list_book .data_no {height:auto; margin: 90px 0;}
 
 .connetError {background: url('../images/icon_network.png') center 200px no-repeat;background-size: 66px 66px;padding-top: 295px;}
 .connetError .txt01 {text-align: center; font-size: 44px; font-weight: 300;  line-height: 1.09;  letter-spacing: -2.2px; color: #000000;font-family: 'NotoL';position: relative;}
