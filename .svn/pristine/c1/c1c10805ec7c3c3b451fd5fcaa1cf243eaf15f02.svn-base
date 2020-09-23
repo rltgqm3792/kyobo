@@ -78,7 +78,6 @@ legend, caption {visibility:hidden; overflow:hidden; line-height:0; width:0; hei
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {display:block;}
 strong { font-family: 'NotoB';font-weight: 700;}
 .hidden {position:absolute; visibility:hidden; overflow:hidden; height:0; line-height:0; width:0; margin:0; padding:0; font:0/0 Arial;}
-.em_uline {text-decoration:underline; text-underline-position:under;}
 
 /* form */
 input {font-size:15px; border:1px solid #d7d7d7; height:32px; padding:3px 8px 2px 8px; background:#fff; vertical-align:top; border-radius: 0px;  -webkit-appearance: none;  -moz-appearance: none; appearance: none;}
@@ -473,7 +472,7 @@ input {font-size:15px; border:1px solid #d7d7d7; height:32px; padding:3px 8px 2p
 .book_view03 .data > span:first-child:after {content:''}
 .book_view03 .data > span:after { content:'|';position: absolute; top:6px; left:0; font-size:11px; color:#999999; display:inline-block; clear:both;}
 .book_view03 .rented {display: inline-block;padding-left: 18px;background: url('../images/icon_arrow_03.png') 0 center no-repeat;font-style:normal;background-size: 14px 10px;font-size: 14px;line-height: 1.2;margin-top: 5px; color: #666;}
-
+			
 .shortItem li {display: none;}
 .shortItem li:nth-child(1),
 .shortItem li:nth-child(2),
@@ -667,7 +666,7 @@ ul.tab01.type3 li {width:100%;} /*2020-07-24 tab 100% 추가*/
 .adult_certify .btn_area .submit {border-color:#000; background-color:#000; color:#fff;}
 
 /* 툴팁아이콘 */
-.btn_tooltip {display:inline-block; position: relative; width:18px; height:22px; margin-left:8px; vertical-align:middle; font-size:0; line-height:22px; text-indent:-999em; background:url('../images/icon_tooltip.png') no-repeat 0 0; background-size:contain;}
+.btn_tooltip {display:inline-block; position: relative; width:18px; height:18px; margin-left:8px; vertical-align:middle; font-size:0; line-height:0; text-indent:-999em; background:url('../images/icon_tooltip.png') no-repeat 0 0; background-size:contain;}
 
 /* popup */
 .popup_container .header_container {position:fixed; top:0; width:100%; height:53px; padding:0; background:#fff; border-bottom:1px solid #999; z-index:1100;}
@@ -858,8 +857,8 @@ ul.tab01.type3 li {width:100%;} /*2020-07-24 tab 100% 추가*/
 .bookListType01 .icon_adult {left: 5px;bottom: 5px;width: 26px;height: 26px;background-size: 26px 26px;}
 .bookListType01 .icon_sam {background-size: 40px 18px !important;left: 5px !important; top: 5px !important;}
 .bookListType01 .icon_samList { position: absolute; right: 5px; bottom: 5px; width: 26px;height: 26px;display: inline-block;background: url(../images/icon_audioList.png) no-repeat 0 0;text-indent: -9999px;z-index: 11;background-size: 26px 26px;} 
-.bookListType01.zzim li .list_wrap {margin-left:72px;padding-left: 120px !important;}
-.bookListType01.zzim li .list_wrap .pic {left:0;}
+.bookListType01.zzim li > a {margin-left:72px;padding-left: 120px !important;}
+.bookListType01.zzim li > a .pic {left:0;}
 .bookListType01.zzim li .check_box02 {position: absolute;left: 28px;top: 20px; width: 24px;overflow: hidden;height: 24px;text-indent: -999px;z-index: 5;}
 .bookListType01.zzim li .check_box02 label:before {position: absolute;left: 0;top: 0;}
 /* 대여 금액 없는 경우  */
@@ -876,7 +875,6 @@ ul.tab01.type3 li {width:100%;} /*2020-07-24 tab 100% 추가*/
 .list_zzim .data_no > span:before {content:''; display:block; width:60px; height:60px; margin:0 auto 25px; background:url('../images/icon_zzim03.png') no-repeat 0 0; background-size:contain;}
 .list_book .data_no > span:before {content:''; display:block; width:60px; height:60px; margin:0 auto 25px; background:url('../images/icon_history02.png') no-repeat 0 0; background-size:contain;}
 .list_zzim .data_no > span:after,.list_book .data_no > span:after {content:''; display:block; width:40px; height:2px; margin:30px auto 0; background-color:#333;}
-.list_book .data_no {height:auto; margin:80px 0 100px}
 
 .connetError {background: url('../images/icon_network.png') center 200px no-repeat;background-size: 66px 66px;padding-top: 295px;}
 .connetError .txt01 {text-align: center; font-size: 44px; font-weight: 300;  line-height: 1.09;  letter-spacing: -2.2px; color: #000000;font-family: 'NotoL';position: relative;}
@@ -937,8 +935,6 @@ ul.tab01.type3 li {width:100%;} /*2020-07-24 tab 100% 추가*/
 .useGuide_wrap .qr_wrap dl dd {display: inline-block;padding-right: 30px;font-weight: bold;font-family: 'NotoB';}
 .useGuide_wrap .qr_wrap .qr {position: absolute;right: 24px;top: 28px;}
 
-/*상세 책소개 ebook 안내*/
-.ecash_info {padding:20px 0;}
 
 /* 개발요청 추가 */
 /* icon off 제어 */
@@ -981,6 +977,6 @@ li .detail .price.display_listType_freeYn.N {display:none;}
 .icon_adult.N {display:none;}
 .icon_sam.N {display:none;}
 .icon_free.N {display:none;}
-.icon_audio.N {display:none;} 
+.icon_audio.N {display:none;}
 
-
+.em_uline {text-decoration:underline; text-underline-position:under;}
