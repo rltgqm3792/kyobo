@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>부동산레터</title>
+	<link href="css/stock_letter.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/billboard.css">
+</head>
+
+<style>
+.bb-tooltip-container.bullets {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.bb-tooltip th {
+  background-color: #fba8a8;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.bb-tooltip-container { text-align: left;top: 0; }
+.bb-tooltip-name-data2 { margin-top: 40px; }
+</style>
+<body>
+<div id="wrap" class="estate">
+	<div class="header">
+		<h2 class="wrap">
+			<a href="javascript:void(0);" class="prevBtn" role="button">
+				<img src="img/arrow_back.svg" alt="이전">
+			</a>
+			<span class="title">부동산레터</span>
+		</h2>
+	</div>
+	<div class="fix_wrap">
+
+		<div class="container_wrap">
+			<div class="content">
+				<div class="con_mod">
+					<div class="inner">
+						<!-- 검색 -->
+						<div class="estate_wrap">
+							<!-- 상세 -->
+							<div class="search_detail">
+								<div class="item_name">
+									반월동 신동탄포레자이<br>
+									<span>경기도 화성시 반월동</span>
+								</div>
+								<div class="item_area">
+									<p class="noti_num"><span>100</span>명이 알림 받는 중</p>
+									<div class="btns_area half">
+										<button type="button" class="btn_comm impor2">10평형<span class="icon_arrow"></span></button>
+										<button type="button" class="btn_comm impor2 bell">알림받기</button>
+									</div>
+									<div class="item_price">
+										<p class="price_info">최근 1개월 실거래가 평균<br><span class="price">33억 7,200</span></p>
+										<div class="item_btn">
+											<span class="rad_wrap">
+												<input type="radio" name="form_rad" id="form_rad_1" checked>
+												<label for="form_rad_1">
+													<span>매매</span>
+												</label>
+											</span>
+											<span class="rad_wrap">
+												<input type="radio" name="form_rad" id="form_rad_2">
+												<label for="form_rad_2">
+													<span>전월세</span>
+												</label>
+											</span>
+										</div>	
+									</div>
+								</div>
+
+								<div class="item_detail">
+									<dl class="inner">
+										<dt>
+											<div class="title">최근 1개월 실거래</div>
+										</dt>
+										<!-- 비회원일때 sub에 not_member 추가, 데이터 없으면 sub에 no_data 추가-->
+										<dd class="sub">
+											<!-- 차트영역 (aria-label 대체 텍스트 요망)-->
+											<div class="chart" aria-label="최근 3개월간 통신요금을 그래프로 나타내었습니다. 01월 40,400원 02월 35,000원 03월 33,000원 04월 44,300원">
+												<div id="graph_block" style="position: absolute;width: 100%;height: 300px;border: 1px solid;background-color: white; z-index: 1; opacity: 0;"></div>
+												<div id="linkedTooltips_1"></div>
+												<div id="linkedTooltips_2" style="margin-top:-150px;"></div>
+											</div>
+											<!--// 차트영역 -->
+											<div class="info_join">
+												<p>부동산레터서비스 신청 후 확인 가능합니다.</p>
+											</div>
+										</dd>
+									</dl>
+								</div>
+
+								<div class="item_detail">
+									<dl class="inner">
+										<dt>
+											<div class="title">거래내역 (KB부동산)</div>
+										</dt>
+										<!-- 비회원일때 sub에 not_member 추가  -->
+										<dd class="sub">
+											<div class="tb_type1">
+												<table>
+													<caption>거래내역 테이블 입니다. 거래일자, 층, 거래내역 내용을 확인하실 수 있습니다.</caption>
+													<!-- th 항목의 내용이 바뀌면 캡션 내용도 바꿔주세요 -->
+													<colgroup>
+														<col style="width:40%">
+														<col style="width:20%">
+														<col style="width:*">
+													</colgroup>
+													<thead>
+														<tr>
+															<th scope="col">거래일자</th>
+															<th scope="col">층</th>
+															<th scope="col">거래금액</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>2020.05.01</td>
+															<td>10층</td>
+															<td>34억 2,000</td>
+														</tr>
+														<tr>
+															<td>2020.04.30</td>
+															<td>20층</td>
+															<td>32억 2,000</td>
+														</tr>
+														<tr>
+															<td>2020.03.30</td>
+															<td>4층</td>
+															<td>36억 2,000</td>
+														</tr>
+														<tr>
+															<td>2020.02.30</td>
+															<td>14층</td>
+															<td>30억 2,000</td>
+														</tr>
+														<tr>
+															<td>2020.01.30</td>
+															<td>11층</td>
+															<td>31억 2,000</td>
+														</tr>
+														<tr>
+															<td colspan="3" class="no_data">조회할 테이터가 없습니다.</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="info_join">
+												<p>부동산레터서비스 신청 후 확인 가능합니다.</p>
+											</div>
+										</dd>
+									</dl>
+								</div>
+
+								<div class="item_detail">
+									<dl class="inner">
+										<dt>
+											<div class="title">매물정보 (KB부동산)</div>
+										</dt>
+										<!-- 비회원일때 sub에 not_member 추가  -->
+										<dd class="sub">
+											<div class="tb_type1">
+												<table>
+													<caption>매물정보 테이블 입니다. 가격, 총, 전화번호 내용을 확인하실 수 있습니다.</caption>
+													<!-- th 항목의 내용이 바뀌면 캡션 내용도 바꿔주세요 -->
+													<colgroup>
+														<col style="width:40%">
+														<col style="width:20%">
+														<col style="width:*">
+													</colgroup>
+													<thead>
+														<tr>
+															<th scope="col">가격</th>
+															<th scope="col">층</th>
+															<th scope="col">전화번호</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>34억 2,000</td>
+															<td>10층</td>
+															<td>02-1234-1234</td>
+														</tr>
+														<tr>
+															<td>32억 2,000</td>
+															<td>20층</td>
+															<td>02-1234-1234</td>
+														</tr>
+														<tr>
+															<td>36억 2,000</td>
+															<td>4층</td>
+															<td>02-1234-1234</td>
+														</tr>
+														<tr>
+															<td>30억 2,000</td>
+															<td>14층</td>
+															<td>02-1234-1234</td>
+														</tr>
+														<tr>
+															<td>31억 2,000</td>
+															<td>11층</td>
+															<td>02-1234-1234</td>
+														</tr>
+														<tr>
+															<td colspan="3" class="no_data">조회할 테이터가 없습니다.</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="info_join">
+												<p>부동산레터서비스 신청 후 확인 가능합니다.</p>
+											</div>
+										</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- bottom info -->
+	<div class="bottom">
+		<div class="wrap">
+			<div class="terms">
+				<span class="term"><a href="#none" role="button">서비스 이용약관</a></span>
+				<span class="term"><a href="#none" role="button">개인정보처리방침</a></span>
+			</div>
+			<div class="info">
+				<p>· 서비스 이용문의 ㈜인포바인 02-718-0021</p>
+				<p>* 가입해지 문의 SKT(114)</p>
+			</div>
+		</div>
+	</div>
+	<!--// bottom info -->
+
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/billboard.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/vcui.js"></script>
+<script src="js/vcui.common-ui.js"></script>
+<script src="js/site.js"></script>
+<script>
+$(function () {
+	// 버튼활성화
+	$("#search_a").on("propertychange change keyup paste input", function () {
+		if ($(this).val().length) {
+			$(this).siblings(".input_clear").show();
+		} else {
+			$(this).siblings("input_clear").hide();
+		}
+	});
+	
+	$(".input_clear").click(function () {
+		$(this).siblings("input").val("");
+		$(this).hide();
+	});
+});
+
+// 스크롤 이벤트 체크
+/*
+$(function () {	
+	$(window).on('scroll',function() {
+		document.addEventListener('scroll', function() {
+			var currentScrollValue = document.documentElement.scrollTop;
+			console.log('currentScrollValue is ' + currentScrollValue);
+			$('#graph_block').css('display', 'block');
+			//alert("스크롤 감지");
+		});
+	});
+});
+*/
+//var tttt = event;
+/*
+function tttt(event)
+{
+	alert("스크롤");
+	console.log(event);
+	
+	var test11 = event;
+	
+	if (test11 != event)
+	{
+		alert("if");
+	}
+	else
+	{
+		alert("else");
+	}
+	
+}
+*/
+
+// 그래프 클릭 이벤트
+
+$('.chart').click(function() {
+
+	var scrollSet = $(".item_price").offset();
+	$('html, body').animate({scrollTop : scrollSet.top}, 200);
+
+	var position = $(window).scrollTop();	// 현재 스크롤바의 위치 값	
+	//console.log(position)
+	var divY = scrollSet.top;				// 이동된 스크롤바의 위치 값
+	//console.log(divY)
+	
+	if ( position == divY )
+	{
+		//$(window).unbind('scroll');
+		$('#graph_block').css('display', 'none');
+	}
+	else
+	{
+		$(window).scroll(function () {
+			var scroll = $(window).scrollTop();
+			$('#graph_block').css('display', 'block');
+		});
+	}
+});
+
+
+/*
+		$(function() {
+
+
+				$(window).scroll(function (event) {
+					var scroll = $(window).scrollTop();
+					$('#graph_block').css('display', 'block');
+					console.log("스크롤");
+				});
+			
+		});
+*/
+
+var data1_template = "<ul><li>{=TITLE}</li>{{<li class={=CLASS_TOOLTIP_NAME}>평균거래가 : <span>{=VALUE} {=VAR}</span></li>}}</ul>"
+var data2_template = "<ul>{{<li class={=CLASS_TOOLTIP_NAME}>거래량 : <span>{=VALUE} {=VAR}</span></li>}}</ul>"
+
+
+
+var data1_Date = ["x", "2020-01-01", "2020-01-02", "2020-01-03", "2020-01-04", "2020-01-05", "2020-01-06", "2020-01-07", "2020-01-08", "2020-01-09", "2020-01-10", 
+				  "2020-01-11", "2020-01-12", "2020-01-13", "2020-01-14", "2020-01-15", "2020-01-16", "2020-01-17", "2020-01-18", "2020-01-19", "2020-01-20", 
+				  "2020-01-21", "2020-01-22", "2020-01-23", "2020-01-24", "2020-01-25", "2020-01-26", "2020-01-27", "2020-01-28", "2020-01-29", "2020-01-30", "2020-01-31"
+				 ];
+
+var data1_Data = ["data1", 0, 41, 42, 44, 46, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 55, 54, 53, 52, 51, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68];
+
+var data2_Date = ["x", "2020-01-01", "2020-01-02", "2020-01-03", "2020-01-04", "2020-01-05", "2020-01-06", "2020-01-07", "2020-01-08", "2020-01-09", "2020-01-10", 
+				  "2020-01-11", "2020-01-12", "2020-01-13", "2020-01-14", "2020-01-15", "2020-01-16", "2020-01-17", "2020-01-18", "2020-01-19", "2020-01-20", 
+				  "2020-01-21", "2020-01-22", "2020-01-23", "2020-01-24", "2020-01-25", "2020-01-26", "2020-01-27", "2020-01-28", "2020-01-29", "2020-01-30", "2020-01-31"
+				 ];
+
+var data2_Data = ["data2", 10, 50, 100, 50, 50, 40, 20, 70, 80, 60, 10, 50, 100, 50, 50, 40, 20, 70, 80, 60, 10, 50, 100, 50, 50, 40, 20, 70, 80, 60, 90];
+
+
+var chart = bb.generate({
+	size : {
+		//width : 376,
+		height : 150
+	},
+	padding : {
+		top : 0,
+		right : 60,
+		bottom : 0,
+		left : 30
+	},
+	data: {
+		x: "x",
+		columns: [
+			data1_Date,
+			data1_Data
+		],
+		types: {
+			data1: "line", // for ESM specify as: line()
+		},
+		onclick: function(columns, i) {
+		
+			//return false;
+			var data1_index = columns.index;
+			console.log("data1_index : " + data1_index);	
+		},	
+	},
+	point: {
+		show: false	
+	},
+	axis: {
+		x: {
+			show: false,
+			type: "category"
+		},	
+		y: {
+			show: false
+		}
+	},
+	legend: {
+		show: false
+	},	
+	tooltip: {
+		linked: true,
+		show: true,
+		/*
+		position: function(data, width, height, element) {
+			return {top: 0, left: 0}
+		},		
+		*/
+		doNotHide: true,
+		contents: {
+			bindto: "#tooltip",
+			text: {
+				VAR: [
+					"만원",	
+				]
+			},
+			//template: "<ul><li>타이틀 제목<br>{=TITLE}</li>{{<li class={=CLASS_TOOLTIP_NAME}>평균거래가 : <span>{=VALUE} {=VAR}</span></li>}}</ul>"
+			template: data1_template
+		}
+	},
+	grid: {
+		focus: {
+			show: false
+		}
+	},	
+	bindto: "#linkedTooltips_1"
+});
+
+
+var chart2 = bb.generate({
+	size : {
+		//width : 376,
+		height : 300
+	},
+	padding : {
+		top : 0,
+		right : 60,
+		bottom : 0,
+		left : 30
+	},
+	data: {
+		x: "x",
+		columns: [
+			data2_Date,
+			data2_Data					
+		],
+		types: {
+			data2: "bar", // for ESM specify as: line()
+		},
+		onclick: function(columns, i) {
+
+			//return false;
+			var data2_index = columns.index;
+			console.log("data2_index : " + data2_index);
+			
+		},	
+		/*
+		labels: {
+			format: {
+				data2: function(x) {
+					return d3.format('$')(x)
+				}
+			},
+		    colors: {
+		        data2: "blue"
+		    }			
+		}
+		*/
+	},
+	axis: {
+		x: {
+			show: false,
+			type: "timeseries",
+			tick: {
+				format: "%Y-%m-%d"
+			},				
+		},	
+		y: {
+			show: false,
+			padding : {
+				top : 250,
+				right : 0,
+				bottom : 0,
+				left : 0
+			},				
+		}
+	},
+	legend: {
+		show: false
+	},	
+	tooltip: {
+		show: true,
+		linked: true,
+		/*
+		position: function(data, width, height, element) {
+			return {top: -270, left: 0}
+		},
+		*/
+		doNotHide: true,
+		contents: {
+			bindto: "#tooltip",
+			text: {
+				VAR: [
+					"건",			
+				]
+			},
+			template: data2_template
+		}		
+	},
+	grid: {
+		focus: {
+			show: true
+		}
+	},
+	bindto: "#linkedTooltips_2"
+});
+
+</script>
+
+</body>
+
+</html>
